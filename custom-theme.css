@@ -19,11 +19,11 @@ md-bottom-sheet.md-default-theme.md-list md-list-item, md-bottom-sheet.md-list m
 }
 
 .md-button.md-default-theme.md-primary, .md-button.md-primary {
-    color: rgb(77, 128, 128)
+    color: var(--side)
 }
 
 .md-button.md-default-theme.md-primary.md-fab, .md-button.md-primary.md-fab, .md-button.md-default-theme.md-primary.md-raised, .md-button.md-primary.md-raised {
-    background-color: rgb(77, 128, 128);
+    background-color: var(--side);
     color: rgba(255, 255, 255, 0.87)
 }
 
@@ -36,11 +36,11 @@ md-bottom-sheet.md-default-theme.md-list md-list-item, md-bottom-sheet.md-list m
 }
 
 .md-button.md-default-theme.md-primary:not([disabled]) md-icon, .md-button.md-primary:not([disabled]) md-icon {
-    color: rgb(77, 128, 128)
+    color: var(--side)
 }
 
 ._md a.md-default-theme:not(.md-button).md-primary, ._md a:not(.md-button).md-primary {
-    color: rgb(77, 128, 128)
+    color: var(--side)
 }
 
 ._md a.md-default-theme:not(.md-button).md-primary:hover, ._md a:not(.md-button).md-primary:hover {
@@ -112,7 +112,7 @@ md-chips.md-default-theme .md-chips, md-chips .md-chips {
 }
 
 md-chips.md-default-theme .md-chips.md-focused, md-chips .md-chips.md-focused {
-    box-shadow: 0 2px rgb(77, 128, 128)
+    box-shadow: 0 2px var(--side)
 }
 
 md-chips.md-default-theme .md-chips .md-chip-input-container input, md-chips .md-chips .md-chip-input-container input {
@@ -141,7 +141,7 @@ md-chips.md-default-theme .md-chips .md-chip-input-container input:-moz-placehol
 }
 
 md-chips.md-default-theme md-chip.md-focused, md-chips md-chip.md-focused {
-    background: rgb(77, 128, 128);
+    background: var(--side);
     color: rgba(255, 255, 255, 0.87)
 }
 
@@ -202,7 +202,7 @@ md-chips.md-default-theme .md-chip-remove-container button.md-chip-remove md-ico
 }
 
 .md-default-theme .md-datepicker-input-container.md-datepicker-focused, .md-datepicker-input-container.md-datepicker-focused {
-    border-bottom-color: rgb(77, 128, 128)
+    border-bottom-color: var(--side)
 }
 
 .md-default-theme .md-datepicker-triangle-button .md-datepicker-expand-triangle, .md-datepicker-triangle-button .md-datepicker-expand-triangle {
@@ -210,7 +210,7 @@ md-chips.md-default-theme .md-chip-remove-container button.md-chip-remove md-ico
 }
 
 .md-default-theme .md-datepicker-open .md-datepicker-calendar-icon, .md-datepicker-open .md-datepicker-calendar-icon {
-    color: rgb(77, 128, 128)
+    color: var(--side)
 }
 
 md-dialog.md-default-theme.md-content-overflow md-dialog-actions, md-dialog.md-content-overflow md-dialog-actions {
@@ -226,15 +226,15 @@ md-icon.md-default-theme, md-icon {
 }
 
 md-icon.md-default-theme.md-primary, md-icon.md-primary {
-    color: rgb(77, 128, 128)
+    color: var(--side)
 }
 
 md-input-container.md-default-theme:not(.md-input-invalid).md-input-focused .md-input, md-input-container:not(.md-input-invalid).md-input-focused .md-input, md-input-container.md-default-theme:not(.md-input-invalid).md-input-resized .md-input, md-input-container:not(.md-input-invalid).md-input-resized .md-input {
-    border-color: rgb(77, 128, 128)
+    border-color: var(--side)
 }
 
 md-input-container.md-default-theme:not(.md-input-invalid).md-input-focused label, md-input-container:not(.md-input-invalid).md-input-focused label, md-input-container.md-default-theme:not(.md-input-invalid).md-input-focused md-icon, md-input-container:not(.md-input-invalid).md-input-focused md-icon {
-    color: rgb(77, 128, 128)
+    color: var(--side)
 }
 
 md-list.md-default-theme md-list-item.md-2-line .md-list-item-text h3, md-list md-list-item.md-2-line .md-list-item-text h3, md-list.md-default-theme md-list-item.md-2-line .md-list-item-text h4, md-list md-list-item.md-2-line .md-list-item-text h4, md-list.md-default-theme md-list-item.md-3-line .md-list-item-text h3, md-list md-list-item.md-3-line .md-list-item-text h3, md-list.md-default-theme md-list-item.md-3-line .md-list-item-text h4, md-list md-list-item.md-3-line .md-list-item-text h4 {
@@ -250,7 +250,7 @@ md-list.md-default-theme md-list-item>md-icon, md-list md-list-item>md-icon {
 }
 
 md-list.md-default-theme md-list-item>md-icon.md-highlight, md-list md-list-item>md-icon.md-highlight {
-    color: rgb(77, 128, 128)
+    color: var(--side)
 }
 
 md-menu-content.md-default-theme md-menu-item, md-menu-content md-menu-item {
@@ -279,7 +279,7 @@ md-menu-content.md-default-theme .md-menu>.md-button:after, md-menu-content .md-
 }
 
 md-toolbar.md-default-theme.md-menu-toolbar md-toolbar-filler, md-toolbar.md-menu-toolbar md-toolbar-filler {
-    background-color: rgb(77, 128, 128);
+    background-color: var(--side);
     color: rgba(255, 255, 255, 0.87)
 }
 
@@ -296,7 +296,7 @@ md-nav-bar.md-default-theme .md-button._md-nav-button[disabled], md-nav-bar .md-
 }
 
 md-nav-bar.md-default-theme.md-primary>.md-nav-bar, md-nav-bar.md-primary>.md-nav-bar {
-    background-color: rgb(77, 128, 128)
+    background-color: var(--side)
 }
 
 md-nav-bar.md-default-theme.md-primary>.md-nav-bar .md-button._md-nav-button, md-nav-bar.md-primary>.md-nav-bar .md-button._md-nav-button {
@@ -312,7 +312,7 @@ md-nav-bar.md-default-theme.md-primary>.md-nav-bar .md-button._md-nav-button.md-
 }
 
 md-toolbar>md-nav-bar.md-default-theme>.md-nav-bar, md-toolbar>md-nav-bar>.md-nav-bar {
-    background-color: rgb(77, 128, 128)
+    background-color: var(--side)
 }
 
 md-toolbar>md-nav-bar.md-default-theme>.md-nav-bar .md-button._md-nav-button, md-toolbar>md-nav-bar>.md-nav-bar .md-button._md-nav-button {
@@ -328,7 +328,7 @@ md-toolbar>md-nav-bar.md-default-theme>.md-nav-bar .md-button._md-nav-button.md-
 }
 
 md-progress-circular.md-default-theme path, md-progress-circular path {
-    stroke: rgb(77, 128, 128)
+    stroke: var(--side)
 }
 
 md-progress-linear.md-default-theme .md-container, md-progress-linear .md-container {
@@ -336,7 +336,7 @@ md-progress-linear.md-default-theme .md-container, md-progress-linear .md-contai
 }
 
 md-progress-linear.md-default-theme .md-bar, md-progress-linear .md-bar {
-    background-color: rgb(77, 128, 128)
+    background-color: var(--side)
 }
 
 md-progress-linear.md-default-theme[md-mode=buffer].md-primary .md-bar1, md-progress-linear[md-mode=buffer].md-primary .md-bar1 {
@@ -388,7 +388,7 @@ md-input-container:not(.md-input-focused):not(.md-input-invalid) md-select.md-de
 }
 
 md-input-container.md-input-focused:not(.md-input-has-value) md-select.md-default-theme .md-select-value, md-input-container.md-input-focused:not(.md-input-has-value) md-select .md-select-value, md-input-container.md-input-focused:not(.md-input-has-value) md-select.md-default-theme .md-select-value.md-select-placeholder, md-input-container.md-input-focused:not(.md-input-has-value) md-select .md-select-value.md-select-placeholder {
-    color: rgb(77, 128, 128)
+    color: var(--side)
 }
 
 md-input-container.md-input-invalid md-select.md-default-theme.md-no-underline .md-select-value, md-input-container.md-input-invalid md-select.md-no-underline .md-select-value {
@@ -412,7 +412,7 @@ md-select.md-default-theme.ng-invalid.ng-touched.md-no-underline .md-select-valu
 }
 
 md-select.md-default-theme:not([disabled]):focus .md-select-value, md-select:not([disabled]):focus .md-select-value {
-    border-bottom-color: rgb(77, 128, 128);
+    border-bottom-color: var(--side);
     color: rgba(0, 0, 0, 0.87)
 }
 
@@ -493,24 +493,24 @@ md-slider.md-default-theme.md-primary .md-focus-ring, md-slider.md-primary .md-f
 }
 
 md-slider.md-default-theme.md-primary .md-track.md-track-fill, md-slider.md-primary .md-track.md-track-fill {
-    background-color: rgb(77, 128, 128)
+    background-color: var(--side)
 }
 
 md-slider.md-default-theme.md-primary .md-thumb:after, md-slider.md-primary .md-thumb:after {
-    background-color: rgb(77, 128, 128);
-    border-color: rgb(77, 128, 128)
+    background-color: var(--side);
+    border-color: var(--side)
 }
 
 md-slider.md-default-theme.md-primary .md-sign, md-slider.md-primary .md-sign {
-    background-color: rgb(77, 128, 128)
+    background-color: var(--side)
 }
 
 md-slider.md-default-theme.md-primary .md-sign:after, md-slider.md-primary .md-sign:after {
-    border-top-color: rgb(77, 128, 128)
+    border-top-color: var(--side)
 }
 
 md-slider.md-default-theme.md-primary[md-vertical] .md-sign:after, md-slider.md-primary[md-vertical] .md-sign:after {
-    border-left-color: rgb(77, 128, 128);
+    border-left-color: var(--side);
     border-top-color: transparent
 }
 
@@ -527,15 +527,15 @@ md-slider-container[disabled]>:first-child:not(md-slider), md-slider-container[d
 }
 
 .md-subheader.md-default-theme.md-primary, .md-subheader.md-primary {
-    color: rgb(77, 128, 128)
+    color: var(--side)
 }
 
 md-switch.md-default-theme.md-checked:not([disabled]).md-primary .md-ink-ripple, md-switch.md-checked:not([disabled]).md-primary .md-ink-ripple {
-    color: rgb(77, 128, 128)
+    color: var(--side)
 }
 
 md-switch.md-default-theme.md-checked:not([disabled]).md-primary .md-thumb, md-switch.md-checked:not([disabled]).md-primary .md-thumb {
-    background-color: rgb(77, 128, 128)
+    background-color: var(--side)
 }
 
 md-switch.md-default-theme.md-checked:not([disabled]).md-primary .md-bar, md-switch.md-checked:not([disabled]).md-primary .md-bar {
@@ -563,7 +563,7 @@ md-tabs.md-default-theme .md-tab.md-focused, md-tabs .md-tab.md-focused {
 }
 
 md-tabs.md-default-theme.md-primary>md-tabs-wrapper, md-tabs.md-primary>md-tabs-wrapper {
-    background-color: rgb(77, 128, 128)
+    background-color: var(--side)
 }
 
 md-tabs.md-default-theme.md-primary>md-tabs-wrapper md-next-button md-icon, md-tabs.md-primary>md-tabs-wrapper md-next-button md-icon, md-tabs.md-default-theme.md-primary>md-tabs-wrapper md-prev-button md-icon, md-tabs.md-primary>md-tabs-wrapper md-prev-button md-icon {
@@ -593,7 +593,7 @@ md-tabs.md-default-theme.md-primary.md-no-ink-bar-color>md-tabs-wrapper>md-tabs-
 }
 
 md-toolbar>md-tabs.md-default-theme>md-tabs-wrapper, md-toolbar>md-tabs>md-tabs-wrapper {
-    background-color: rgb(77, 128, 128)
+    background-color: var(--side)
 }
 
 md-toolbar>md-tabs.md-default-theme>md-tabs-wrapper md-next-button md-icon, md-toolbar>md-tabs>md-tabs-wrapper md-next-button md-icon, md-toolbar>md-tabs.md-default-theme>md-tabs-wrapper md-prev-button md-icon, md-toolbar>md-tabs>md-tabs-wrapper md-prev-button md-icon {
@@ -618,11 +618,11 @@ md-toolbar>md-tabs.md-default-theme.md-no-ink-bar-color>md-tabs-wrapper>md-tabs-
 }
 
 md-toast.md-default-theme .md-toast-content .md-button.md-highlight.md-primary, md-toast .md-toast-content .md-button.md-highlight.md-primary {
-    color: rgb(77, 128, 128)
+    color: var(--side)
 }
 
 md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
-    background-color: rgb(77, 128, 128);
+    background-color: var(--side);
     color: rgba(255, 255, 255, 0.87)
 }
 
@@ -696,7 +696,7 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar) md-input-container[md-no-float
 }
 
 .sg-timepicker-open .sg-timepicker-icon {
-    color: rgb(77, 128, 128);
+    color: var(--side);
 }
 
 [ui-view=calendars] .hours {
@@ -1405,7 +1405,7 @@ md-toolbar.md-default-theme.md-hue-1:not(.md-menu-toolbar) md-input-container[md
 }
 
 .sg-timepicker-open .sg-timepicker-icon {
-    color: rgb(77, 128, 128);
+    color: var(--side);
 }
 
 [ui-view=calendars] .hours {
@@ -2114,7 +2114,7 @@ md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar) md-input-container[md
 }
 
 .sg-timepicker-open .sg-timepicker-icon {
-    color: rgb(77, 128, 128);
+    color: var(--side);
 }
 
 [ui-view=calendars] .hours {
@@ -2823,7 +2823,7 @@ md-toolbar.md-default-theme.md-hue-3:not(.md-menu-toolbar) md-input-container[md
 }
 
 .sg-timepicker-open .sg-timepicker-icon {
-    color: rgb(77, 128, 128);
+    color: var(--side);
 }
 
 [ui-view=calendars] .hours {
@@ -3245,7 +3245,7 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar).md-accent md-input-container[m
 }
 
 md-toolbar.md-default-theme:not(.md-menu-toolbar).md-accent md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused .md-input, md-toolbar:not(.md-menu-toolbar).md-accent md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused .md-input, md-toolbar.md-default-theme:not(.md-menu-toolbar).md-accent md-input-container[md-no-float]:not(.md-input-invalid).md-input-resized .md-input, md-toolbar:not(.md-menu-toolbar).md-accent md-input-container[md-no-float]:not(.md-input-invalid).md-input-resized .md-input {
-    border-color: rgb(77, 128, 128)
+    border-color: var(--side)
 }
 
 md-toolbar.md-default-theme:not(.md-menu-toolbar).md-accent md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-accent .md-input, md-toolbar:not(.md-menu-toolbar).md-accent md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-accent .md-input {
@@ -4927,7 +4927,7 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar).md-warn md-input-container[md-
 }
 
 md-toolbar.md-default-theme:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused .md-input, md-toolbar:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused .md-input, md-toolbar.md-default-theme:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-resized .md-input, md-toolbar:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-resized .md-input {
-    border-color: rgb(77, 128, 128)
+    border-color: var(--side)
 }
 
 md-toolbar.md-default-theme:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-warn .md-input, md-toolbar:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-warn .md-input {
