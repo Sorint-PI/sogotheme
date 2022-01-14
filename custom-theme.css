@@ -1437,11 +1437,11 @@ md-bottom-sheet.md-default-theme.md-hue-2.md-list md-list-item, md-bottom-sheet.
 }
 
 .md-button.md-default-theme.md-hue-2.md-primary, .md-button.md-hue-2.md-primary {
-    color: rgb(99, 153, 151)
+    color: var(--sorint-orange)
 }
 
 .md-button.md-default-theme.md-hue-2.md-primary.md-fab, .md-button.md-hue-2.md-primary.md-fab, .md-button.md-default-theme.md-hue-2.md-primary.md-raised, .md-button.md-hue-2.md-primary.md-raised {
-    background-color: rgb(99, 153, 151);
+    background-color: var(--sorint-orange);
     color: rgba(255, 255, 255, 0.87)
 }
 
@@ -1454,11 +1454,11 @@ md-bottom-sheet.md-default-theme.md-hue-2.md-list md-list-item, md-bottom-sheet.
 }
 
 .md-button.md-default-theme.md-hue-2.md-primary:not([disabled]) md-icon, .md-button.md-hue-2.md-primary:not([disabled]) md-icon {
-    color: rgb(99, 153, 151)
+    color: var(--sorint-orange)
 }
 
 ._md a.md-default-theme.md-hue-2:not(.md-button).md-primary, ._md a.md-hue-2:not(.md-button).md-primary {
-    color: rgb(99, 153, 151)
+    color: var(--sorint-orange)
 }
 
 ._md a.md-default-theme.md-hue-2:not(.md-button).md-primary:hover, ._md a.md-hue-2:not(.md-button).md-primary:hover {
@@ -1530,7 +1530,7 @@ md-chips.md-default-theme.md-hue-2 .md-chips, md-chips.md-hue-2 .md-chips {
 }
 
 md-chips.md-default-theme.md-hue-2 .md-chips.md-focused, md-chips.md-hue-2 .md-chips.md-focused {
-    box-shadow: 0 2px rgb(99, 153, 151)
+    box-shadow: 0 2px var(--sorint-orange)
 }
 
 md-chips.md-default-theme.md-hue-2 .md-chips .md-chip-input-container input, md-chips.md-hue-2 .md-chips .md-chip-input-container input {
@@ -1559,7 +1559,7 @@ md-chips.md-default-theme.md-hue-2 .md-chips .md-chip-input-container input:-moz
 }
 
 md-chips.md-default-theme.md-hue-2 md-chip.md-focused, md-chips.md-hue-2 md-chip.md-focused {
-    background: rgb(99, 153, 151);
+    background: var(--sorint-orange);
     color: rgba(255, 255, 255, 0.87)
 }
 
@@ -1620,7 +1620,7 @@ md-chips.md-default-theme.md-hue-2 .md-chip-remove-container button.md-chip-remo
 }
 
 .md-default-theme.md-hue-2 .md-datepicker-input-container.md-datepicker-focused, .md-hue-2 .md-datepicker-input-container.md-datepicker-focused {
-    border-bottom-color: rgb(99, 153, 151)
+    border-bottom-color: var(--sorint-orange)
 }
 
 .md-default-theme.md-hue-2 .md-datepicker-triangle-button .md-datepicker-expand-triangle, .md-hue-2 .md-datepicker-triangle-button .md-datepicker-expand-triangle {
@@ -1628,7 +1628,7 @@ md-chips.md-default-theme.md-hue-2 .md-chip-remove-container button.md-chip-remo
 }
 
 .md-default-theme.md-hue-2 .md-datepicker-open .md-datepicker-calendar-icon, .md-hue-2 .md-datepicker-open .md-datepicker-calendar-icon {
-    color: rgb(99, 153, 151)
+    color: var(--sorint-orange)
 }
 
 md-dialog.md-default-theme.md-hue-2.md-content-overflow md-dialog-actions, md-dialog.md-hue-2.md-content-overflow md-dialog-actions {
@@ -1644,15 +1644,15 @@ md-icon.md-default-theme.md-hue-2, md-icon.md-hue-2 {
 }
 
 md-icon.md-default-theme.md-hue-2.md-primary, md-icon.md-hue-2.md-primary {
-    color: rgb(99, 153, 151)
+    color: var(--sorint-orange)
 }
 
 md-input-container.md-default-theme.md-hue-2:not(.md-input-invalid).md-input-focused .md-input, md-input-container.md-hue-2:not(.md-input-invalid).md-input-focused .md-input, md-input-container.md-default-theme.md-hue-2:not(.md-input-invalid).md-input-resized .md-input, md-input-container.md-hue-2:not(.md-input-invalid).md-input-resized .md-input {
-    border-color: rgb(99, 153, 151)
+    border-color: var(--sorint-orange)
 }
 
 md-input-container.md-default-theme.md-hue-2:not(.md-input-invalid).md-input-focused label, md-input-container.md-hue-2:not(.md-input-invalid).md-input-focused label, md-input-container.md-default-theme.md-hue-2:not(.md-input-invalid).md-input-focused md-icon, md-input-container.md-hue-2:not(.md-input-invalid).md-input-focused md-icon {
-    color: rgb(99, 153, 151)
+    color: var(--sorint-orange)
 }
 
 md-list.md-default-theme.md-hue-2 md-list-item.md-2-line .md-list-item-text h3, md-list.md-hue-2 md-list-item.md-2-line .md-list-item-text h3, md-list.md-default-theme.md-hue-2 md-list-item.md-2-line .md-list-item-text h4, md-list.md-hue-2 md-list-item.md-2-line .md-list-item-text h4, md-list.md-default-theme.md-hue-2 md-list-item.md-3-line .md-list-item-text h3, md-list.md-hue-2 md-list-item.md-3-line .md-list-item-text h3, md-list.md-default-theme.md-hue-2 md-list-item.md-3-line .md-list-item-text h4, md-list.md-hue-2 md-list-item.md-3-line .md-list-item-text h4 {
@@ -1668,7 +1668,7 @@ md-list.md-default-theme.md-hue-2 md-list-item>md-icon, md-list.md-hue-2 md-list
 }
 
 md-list.md-default-theme.md-hue-2 md-list-item>md-icon.md-highlight, md-list.md-hue-2 md-list-item>md-icon.md-highlight {
-    color: rgb(99, 153, 151)
+    color: var(--sorint-orange)
 }
 
 md-menu-content.md-default-theme.md-hue-2 md-menu-item, md-menu-content.md-hue-2 md-menu-item {
@@ -1697,7 +1697,7 @@ md-menu-content.md-default-theme.md-hue-2 .md-menu>.md-button:after, md-menu-con
 }
 
 md-toolbar.md-default-theme.md-hue-2.md-menu-toolbar md-toolbar-filler, md-toolbar.md-hue-2.md-menu-toolbar md-toolbar-filler {
-    background-color: rgb(99, 153, 151);
+    background-color: var(--sorint-orange);
     color: rgba(255, 255, 255, 0.87)
 }
 
@@ -1714,7 +1714,7 @@ md-nav-bar.md-default-theme.md-hue-2 .md-button._md-nav-button[disabled], md-nav
 }
 
 md-nav-bar.md-default-theme.md-hue-2.md-primary>.md-nav-bar, md-nav-bar.md-hue-2.md-primary>.md-nav-bar {
-    background-color: rgb(99, 153, 151)
+    background-color: var(--sorint-orange)
 }
 
 md-nav-bar.md-default-theme.md-hue-2.md-primary>.md-nav-bar .md-button._md-nav-button, md-nav-bar.md-hue-2.md-primary>.md-nav-bar .md-button._md-nav-button {
@@ -1730,7 +1730,7 @@ md-nav-bar.md-default-theme.md-hue-2.md-primary>.md-nav-bar .md-button._md-nav-b
 }
 
 md-toolbar>md-nav-bar.md-default-theme.md-hue-2>.md-nav-bar, md-toolbar>md-nav-bar.md-hue-2>.md-nav-bar {
-    background-color: rgb(99, 153, 151)
+    background-color: var(--sorint-orange)
 }
 
 md-toolbar>md-nav-bar.md-default-theme.md-hue-2>.md-nav-bar .md-button._md-nav-button, md-toolbar>md-nav-bar.md-hue-2>.md-nav-bar .md-button._md-nav-button {
@@ -1746,7 +1746,7 @@ md-toolbar>md-nav-bar.md-default-theme.md-hue-2>.md-nav-bar .md-button._md-nav-b
 }
 
 md-progress-circular.md-default-theme.md-hue-2 path, md-progress-circular.md-hue-2 path {
-    stroke: rgb(99, 153, 151)
+    stroke: var(--sorint-orange)
 }
 
 md-progress-linear.md-default-theme.md-hue-2 .md-container, md-progress-linear.md-hue-2 .md-container {
@@ -1754,7 +1754,7 @@ md-progress-linear.md-default-theme.md-hue-2 .md-container, md-progress-linear.m
 }
 
 md-progress-linear.md-default-theme.md-hue-2 .md-bar, md-progress-linear.md-hue-2 .md-bar {
-    background-color: rgb(99, 153, 151)
+    background-color: var(--sorint-orange)
 }
 
 md-progress-linear.md-default-theme.md-hue-2[md-mode=buffer].md-primary .md-bar1, md-progress-linear.md-hue-2[md-mode=buffer].md-primary .md-bar1 {
@@ -1806,7 +1806,7 @@ md-input-container:not(.md-input-focused):not(.md-input-invalid) md-select.md-de
 }
 
 md-input-container.md-input-focused:not(.md-input-has-value) md-select.md-default-theme.md-hue-2 .md-select-value, md-input-container.md-input-focused:not(.md-input-has-value) md-select.md-hue-2 .md-select-value, md-input-container.md-input-focused:not(.md-input-has-value) md-select.md-default-theme.md-hue-2 .md-select-value.md-select-placeholder, md-input-container.md-input-focused:not(.md-input-has-value) md-select.md-hue-2 .md-select-value.md-select-placeholder {
-    color: rgb(99, 153, 151)
+    color: var(--sorint-orange)
 }
 
 md-input-container.md-input-invalid md-select.md-default-theme.md-hue-2.md-no-underline .md-select-value, md-input-container.md-input-invalid md-select.md-hue-2.md-no-underline .md-select-value {
@@ -1830,7 +1830,7 @@ md-select.md-default-theme.md-hue-2.ng-invalid.ng-touched.md-no-underline .md-se
 }
 
 md-select.md-default-theme.md-hue-2:not([disabled]):focus .md-select-value, md-select.md-hue-2:not([disabled]):focus .md-select-value {
-    border-bottom-color: rgb(99, 153, 151);
+    border-bottom-color: var(--sorint-orange);
     color: rgba(0, 0, 0, 0.87)
 }
 
@@ -1911,24 +1911,24 @@ md-slider.md-default-theme.md-hue-2.md-primary .md-focus-ring, md-slider.md-hue-
 }
 
 md-slider.md-default-theme.md-hue-2.md-primary .md-track.md-track-fill, md-slider.md-hue-2.md-primary .md-track.md-track-fill {
-    background-color: rgb(99, 153, 151)
+    background-color: var(--sorint-orange)
 }
 
 md-slider.md-default-theme.md-hue-2.md-primary .md-thumb:after, md-slider.md-hue-2.md-primary .md-thumb:after {
-    background-color: rgb(99, 153, 151);
-    border-color: rgb(99, 153, 151)
+    background-color: var(--sorint-orange);
+    border-color: var(--sorint-orange)
 }
 
 md-slider.md-default-theme.md-hue-2.md-primary .md-sign, md-slider.md-hue-2.md-primary .md-sign {
-    background-color: rgb(99, 153, 151)
+    background-color: var(--sorint-orange)
 }
 
 md-slider.md-default-theme.md-hue-2.md-primary .md-sign:after, md-slider.md-hue-2.md-primary .md-sign:after {
-    border-top-color: rgb(99, 153, 151)
+    border-top-color: var(--sorint-orange)
 }
 
 md-slider.md-default-theme.md-hue-2.md-primary[md-vertical] .md-sign:after, md-slider.md-hue-2.md-primary[md-vertical] .md-sign:after {
-    border-left-color: rgb(99, 153, 151);
+    border-left-color: var(--sorint-orange);
     border-top-color: transparent
 }
 
@@ -1945,15 +1945,15 @@ md-slider-container[disabled]>:first-child:not(md-slider), md-slider-container[d
 }
 
 .md-subheader.md-default-theme.md-hue-2.md-primary, .md-subheader.md-hue-2.md-primary {
-    color: rgb(99, 153, 151)
+    color: var(--sorint-orange)
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]).md-primary .md-ink-ripple, md-switch.md-hue-2.md-checked:not([disabled]).md-primary .md-ink-ripple {
-    color: rgb(99, 153, 151)
+    color: var(--sorint-orange)
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]).md-primary .md-thumb, md-switch.md-hue-2.md-checked:not([disabled]).md-primary .md-thumb {
-    background-color: rgb(99, 153, 151)
+    background-color: var(--sorint-orange)
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]).md-primary .md-bar, md-switch.md-hue-2.md-checked:not([disabled]).md-primary .md-bar {
@@ -1981,7 +1981,7 @@ md-tabs.md-default-theme.md-hue-2 .md-tab.md-focused, md-tabs.md-hue-2 .md-tab.m
 }
 
 md-tabs.md-default-theme.md-hue-2.md-primary>md-tabs-wrapper, md-tabs.md-hue-2.md-primary>md-tabs-wrapper {
-    background-color: rgb(99, 153, 151)
+    background-color: var(--sorint-orange)
 }
 
 md-tabs.md-default-theme.md-hue-2.md-primary>md-tabs-wrapper md-next-button md-icon, md-tabs.md-hue-2.md-primary>md-tabs-wrapper md-next-button md-icon, md-tabs.md-default-theme.md-hue-2.md-primary>md-tabs-wrapper md-prev-button md-icon, md-tabs.md-hue-2.md-primary>md-tabs-wrapper md-prev-button md-icon {
@@ -2011,7 +2011,7 @@ md-tabs.md-default-theme.md-hue-2.md-primary.md-no-ink-bar-color>md-tabs-wrapper
 }
 
 md-toolbar>md-tabs.md-default-theme.md-hue-2>md-tabs-wrapper, md-toolbar>md-tabs.md-hue-2>md-tabs-wrapper {
-    background-color: rgb(99, 153, 151)
+    background-color: var(--sorint-orange)
 }
 
 md-toolbar>md-tabs.md-default-theme.md-hue-2>md-tabs-wrapper md-next-button md-icon, md-toolbar>md-tabs.md-hue-2>md-tabs-wrapper md-next-button md-icon, md-toolbar>md-tabs.md-default-theme.md-hue-2>md-tabs-wrapper md-prev-button md-icon, md-toolbar>md-tabs.md-hue-2>md-tabs-wrapper md-prev-button md-icon {
@@ -2036,11 +2036,11 @@ md-toolbar>md-tabs.md-default-theme.md-hue-2.md-no-ink-bar-color>md-tabs-wrapper
 }
 
 md-toast.md-default-theme.md-hue-2 .md-toast-content .md-button.md-highlight.md-primary, md-toast.md-hue-2 .md-toast-content .md-button.md-highlight.md-primary {
-    color: rgb(99, 153, 151)
+    color: var(--sorint-orange)
 }
 
 md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar), md-toolbar.md-hue-2:not(.md-menu-toolbar) {
-    background-color: rgb(99, 153, 151);
+    background-color: var(--sorint-orange);
     color: rgba(255, 255, 255, 0.87)
 }
 
@@ -4101,7 +4101,7 @@ md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar).md-accent md-input-co
 }
 
 md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar).md-accent md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused .md-input, md-toolbar.md-hue-2:not(.md-menu-toolbar).md-accent md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused .md-input, md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar).md-accent md-input-container[md-no-float]:not(.md-input-invalid).md-input-resized .md-input, md-toolbar.md-hue-2:not(.md-menu-toolbar).md-accent md-input-container[md-no-float]:not(.md-input-invalid).md-input-resized .md-input {
-    border-color: rgb(99, 153, 151)
+    border-color: var(--sorint-orange)
 }
 
 md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar).md-accent md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-accent .md-input, md-toolbar.md-hue-2:not(.md-menu-toolbar).md-accent md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-accent .md-input {
@@ -5687,7 +5687,7 @@ md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar).md-warn md-input-cont
 }
 
 md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused .md-input, md-toolbar.md-hue-2:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused .md-input, md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-resized .md-input, md-toolbar.md-hue-2:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-resized .md-input {
-    border-color: rgb(99, 153, 151)
+    border-color: var(--sorint-orange)
 }
 
 md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-warn .md-input, md-toolbar.md-hue-2:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-warn .md-input {
