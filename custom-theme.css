@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import "./sorint-css_fonts.css";
 
 :root{
     --sorint-orange: #ef6c00;
     --side: #c45b1a;
     --backgroung: #8c3f0d;
+}
+
+md-toolbar{
+    font-family: 'Quicksand', sans-serif;
 }
 
 md-autocomplete.md-default-theme input, md-autocomplete input {
@@ -76,7 +81,7 @@ md-checkbox.md-default-theme:not([disabled]).md-primary .md-ink-ripple, md-check
 }
 
 md-checkbox.md-default-theme:not([disabled]).md-primary.md-checked .md-ink-ripple, md-checkbox:not([disabled]).md-primary.md-checked .md-ink-ripple {
-    color: rgba(77, 128, 128, 0.87)
+    color: var(--side)
 }
 
 md-checkbox.md-default-theme:not([disabled]).md-primary:not(.md-checked) .md-icon, md-checkbox:not([disabled]).md-primary:not(.md-checked) .md-icon {
@@ -84,7 +89,7 @@ md-checkbox.md-default-theme:not([disabled]).md-primary:not(.md-checked) .md-ico
 }
 
 md-checkbox.md-default-theme:not([disabled]).md-primary.md-checked .md-icon, md-checkbox:not([disabled]).md-primary.md-checked .md-icon {
-    background-color: rgba(77, 128, 128, 0.87)
+    background-color: var(--side)
 }
 
 md-checkbox.md-default-theme:not([disabled]).md-primary.md-checked.md-focused .md-container:before, md-checkbox:not([disabled]).md-primary.md-checked.md-focused .md-container:before {
@@ -352,15 +357,15 @@ md-radio-button.md-default-theme .md-off, md-radio-button .md-off {
 }
 
 md-radio-button.md-default-theme:not([disabled]).md-primary .md-on, md-radio-button:not([disabled]).md-primary .md-on, md-radio-button.md-default-theme:not([disabled]) .md-primary .md-on, md-radio-button:not([disabled]) .md-primary .md-on, md-radio-group.md-default-theme:not([disabled]).md-primary .md-on, md-radio-group:not([disabled]).md-primary .md-on, md-radio-group.md-default-theme:not([disabled]) .md-primary .md-on, md-radio-group:not([disabled]) .md-primary .md-on {
-    background-color: rgba(77, 128, 128, 0.87)
+    background-color: var(--side)
 }
 
 md-radio-button.md-default-theme:not([disabled]).md-primary.md-checked .md-off, md-radio-button:not([disabled]).md-primary.md-checked .md-off, md-radio-button.md-default-theme:not([disabled]) .md-primary.md-checked .md-off, md-radio-button:not([disabled]) .md-primary.md-checked .md-off, md-radio-button.md-default-theme:not([disabled]).md-primary .md-checked .md-off, md-radio-button:not([disabled]).md-primary .md-checked .md-off, md-radio-button.md-default-theme:not([disabled]) .md-primary .md-checked .md-off, md-radio-button:not([disabled]) .md-primary .md-checked .md-off, md-radio-group.md-default-theme:not([disabled]).md-primary.md-checked .md-off, md-radio-group:not([disabled]).md-primary.md-checked .md-off, md-radio-group.md-default-theme:not([disabled]) .md-primary.md-checked .md-off, md-radio-group:not([disabled]) .md-primary.md-checked .md-off, md-radio-group.md-default-theme:not([disabled]).md-primary .md-checked .md-off, md-radio-group:not([disabled]).md-primary .md-checked .md-off, md-radio-group.md-default-theme:not([disabled]) .md-primary .md-checked .md-off, md-radio-group:not([disabled]) .md-primary .md-checked .md-off {
-    border-color: rgba(77, 128, 128, 0.87)
+    border-color: var(--side)
 }
 
 md-radio-button.md-default-theme:not([disabled]).md-primary.md-checked .md-ink-ripple, md-radio-button:not([disabled]).md-primary.md-checked .md-ink-ripple, md-radio-button.md-default-theme:not([disabled]) .md-primary.md-checked .md-ink-ripple, md-radio-button:not([disabled]) .md-primary.md-checked .md-ink-ripple, md-radio-button.md-default-theme:not([disabled]).md-primary .md-checked .md-ink-ripple, md-radio-button:not([disabled]).md-primary .md-checked .md-ink-ripple, md-radio-button.md-default-theme:not([disabled]) .md-primary .md-checked .md-ink-ripple, md-radio-button:not([disabled]) .md-primary .md-checked .md-ink-ripple, md-radio-group.md-default-theme:not([disabled]).md-primary.md-checked .md-ink-ripple, md-radio-group:not([disabled]).md-primary.md-checked .md-ink-ripple, md-radio-group.md-default-theme:not([disabled]) .md-primary.md-checked .md-ink-ripple, md-radio-group:not([disabled]) .md-primary.md-checked .md-ink-ripple, md-radio-group.md-default-theme:not([disabled]).md-primary .md-checked .md-ink-ripple, md-radio-group:not([disabled]).md-primary .md-checked .md-ink-ripple, md-radio-group.md-default-theme:not([disabled]) .md-primary .md-checked .md-ink-ripple, md-radio-group:not([disabled]) .md-primary .md-checked .md-ink-ripple {
-    color: rgba(77, 128, 128, 0.87)
+    color: var(--side)
 }
 
 md-radio-button.md-default-theme:not([disabled]).md-primary .md-container .md-ripple, md-radio-button:not([disabled]).md-primary .md-container .md-ripple, md-radio-button.md-default-theme:not([disabled]) .md-primary .md-container .md-ripple, md-radio-button:not([disabled]) .md-primary .md-container .md-ripple, md-radio-group.md-default-theme:not([disabled]).md-primary .md-container .md-ripple, md-radio-group:not([disabled]).md-primary .md-container .md-ripple, md-radio-group.md-default-theme:not([disabled]) .md-primary .md-container .md-ripple, md-radio-group:not([disabled]) .md-primary .md-container .md-ripple {
@@ -461,7 +466,7 @@ md-select-menu.md-default-theme md-content md-option[selected].md-focused, md-se
 }
 
 .md-checkbox-enabled.md-default-theme[selected] .md-ink-ripple, .md-checkbox-enabled[selected] .md-ink-ripple {
-    color: rgba(77, 128, 128, 0.87)
+    color: var(--side)
 }
 
 .md-checkbox-enabled.md-default-theme:not(.md-checked) .md-icon, .md-checkbox-enabled:not(.md-checked) .md-icon {
@@ -469,7 +474,7 @@ md-select-menu.md-default-theme md-content md-option[selected].md-focused, md-se
 }
 
 .md-checkbox-enabled.md-default-theme[selected] .md-icon, .md-checkbox-enabled[selected] .md-icon {
-    background-color: rgba(77, 128, 128, 0.87)
+    background-color: var(--side)
 }
 
 .md-checkbox-enabled.md-default-theme[selected].md-focused .md-container:before, .md-checkbox-enabled[selected].md-focused .md-container:before {
@@ -1494,7 +1499,7 @@ md-checkbox.md-default-theme.md-hue-2:not([disabled]).md-primary .md-ink-ripple,
 }
 
 md-checkbox.md-default-theme.md-hue-2:not([disabled]).md-primary.md-checked .md-ink-ripple, md-checkbox.md-hue-2:not([disabled]).md-primary.md-checked .md-ink-ripple {
-    color: rgba(99, 153, 151, 0.87)
+    color: var(--sorint-orange)
 }
 
 md-checkbox.md-default-theme.md-hue-2:not([disabled]).md-primary:not(.md-checked) .md-icon, md-checkbox.md-hue-2:not([disabled]).md-primary:not(.md-checked) .md-icon {
@@ -1502,7 +1507,7 @@ md-checkbox.md-default-theme.md-hue-2:not([disabled]).md-primary:not(.md-checked
 }
 
 md-checkbox.md-default-theme.md-hue-2:not([disabled]).md-primary.md-checked .md-icon, md-checkbox.md-hue-2:not([disabled]).md-primary.md-checked .md-icon {
-    background-color: rgba(99, 153, 151, 0.87)
+    background-color: var(--sorint-orange)
 }
 
 md-checkbox.md-default-theme.md-hue-2:not([disabled]).md-primary.md-checked.md-focused .md-container:before, md-checkbox.md-hue-2:not([disabled]).md-primary.md-checked.md-focused .md-container:before {
@@ -1770,15 +1775,15 @@ md-radio-button.md-default-theme.md-hue-2 .md-off, md-radio-button.md-hue-2 .md-
 }
 
 md-radio-button.md-default-theme.md-hue-2:not([disabled]).md-primary .md-on, md-radio-button.md-hue-2:not([disabled]).md-primary .md-on, md-radio-button.md-default-theme.md-hue-2:not([disabled]) .md-primary .md-on, md-radio-button.md-hue-2:not([disabled]) .md-primary .md-on, md-radio-group.md-default-theme.md-hue-2:not([disabled]).md-primary .md-on, md-radio-group.md-hue-2:not([disabled]).md-primary .md-on, md-radio-group.md-default-theme.md-hue-2:not([disabled]) .md-primary .md-on, md-radio-group.md-hue-2:not([disabled]) .md-primary .md-on {
-    background-color: rgba(99, 153, 151, 0.87)
+    background-color: var(--sorint-orange)
 }
 
 md-radio-button.md-default-theme.md-hue-2:not([disabled]).md-primary.md-checked .md-off, md-radio-button.md-hue-2:not([disabled]).md-primary.md-checked .md-off, md-radio-button.md-default-theme.md-hue-2:not([disabled]) .md-primary.md-checked .md-off, md-radio-button.md-hue-2:not([disabled]) .md-primary.md-checked .md-off, md-radio-button.md-default-theme.md-hue-2:not([disabled]).md-primary .md-checked .md-off, md-radio-button.md-hue-2:not([disabled]).md-primary .md-checked .md-off, md-radio-button.md-default-theme.md-hue-2:not([disabled]) .md-primary .md-checked .md-off, md-radio-button.md-hue-2:not([disabled]) .md-primary .md-checked .md-off, md-radio-group.md-default-theme.md-hue-2:not([disabled]).md-primary.md-checked .md-off, md-radio-group.md-hue-2:not([disabled]).md-primary.md-checked .md-off, md-radio-group.md-default-theme.md-hue-2:not([disabled]) .md-primary.md-checked .md-off, md-radio-group.md-hue-2:not([disabled]) .md-primary.md-checked .md-off, md-radio-group.md-default-theme.md-hue-2:not([disabled]).md-primary .md-checked .md-off, md-radio-group.md-hue-2:not([disabled]).md-primary .md-checked .md-off, md-radio-group.md-default-theme.md-hue-2:not([disabled]) .md-primary .md-checked .md-off, md-radio-group.md-hue-2:not([disabled]) .md-primary .md-checked .md-off {
-    border-color: rgba(99, 153, 151, 0.87)
+    border-color: var(--sorint-orange)
 }
 
 md-radio-button.md-default-theme.md-hue-2:not([disabled]).md-primary.md-checked .md-ink-ripple, md-radio-button.md-hue-2:not([disabled]).md-primary.md-checked .md-ink-ripple, md-radio-button.md-default-theme.md-hue-2:not([disabled]) .md-primary.md-checked .md-ink-ripple, md-radio-button.md-hue-2:not([disabled]) .md-primary.md-checked .md-ink-ripple, md-radio-button.md-default-theme.md-hue-2:not([disabled]).md-primary .md-checked .md-ink-ripple, md-radio-button.md-hue-2:not([disabled]).md-primary .md-checked .md-ink-ripple, md-radio-button.md-default-theme.md-hue-2:not([disabled]) .md-primary .md-checked .md-ink-ripple, md-radio-button.md-hue-2:not([disabled]) .md-primary .md-checked .md-ink-ripple, md-radio-group.md-default-theme.md-hue-2:not([disabled]).md-primary.md-checked .md-ink-ripple, md-radio-group.md-hue-2:not([disabled]).md-primary.md-checked .md-ink-ripple, md-radio-group.md-default-theme.md-hue-2:not([disabled]) .md-primary.md-checked .md-ink-ripple, md-radio-group.md-hue-2:not([disabled]) .md-primary.md-checked .md-ink-ripple, md-radio-group.md-default-theme.md-hue-2:not([disabled]).md-primary .md-checked .md-ink-ripple, md-radio-group.md-hue-2:not([disabled]).md-primary .md-checked .md-ink-ripple, md-radio-group.md-default-theme.md-hue-2:not([disabled]) .md-primary .md-checked .md-ink-ripple, md-radio-group.md-hue-2:not([disabled]) .md-primary .md-checked .md-ink-ripple {
-    color: rgba(99, 153, 151, 0.87)
+    color: var(--sorint-orange)
 }
 
 md-radio-button.md-default-theme.md-hue-2:not([disabled]).md-primary .md-container .md-ripple, md-radio-button.md-hue-2:not([disabled]).md-primary .md-container .md-ripple, md-radio-button.md-default-theme.md-hue-2:not([disabled]) .md-primary .md-container .md-ripple, md-radio-button.md-hue-2:not([disabled]) .md-primary .md-container .md-ripple, md-radio-group.md-default-theme.md-hue-2:not([disabled]).md-primary .md-container .md-ripple, md-radio-group.md-hue-2:not([disabled]).md-primary .md-container .md-ripple, md-radio-group.md-default-theme.md-hue-2:not([disabled]) .md-primary .md-container .md-ripple, md-radio-group.md-hue-2:not([disabled]) .md-primary .md-container .md-ripple {
@@ -1879,7 +1884,7 @@ md-select-menu.md-default-theme.md-hue-2 md-content md-option[selected].md-focus
 }
 
 .md-checkbox-enabled.md-default-theme.md-hue-2[selected] .md-ink-ripple, .md-checkbox-enabled.md-hue-2[selected] .md-ink-ripple {
-    color: rgba(99, 153, 151, 0.87)
+    color: var(--sorint-orange)
 }
 
 .md-checkbox-enabled.md-default-theme.md-hue-2:not(.md-checked) .md-icon, .md-checkbox-enabled.md-hue-2:not(.md-checked) .md-icon {
@@ -1887,7 +1892,7 @@ md-select-menu.md-default-theme.md-hue-2 md-content md-option[selected].md-focus
 }
 
 .md-checkbox-enabled.md-default-theme.md-hue-2[selected] .md-icon, .md-checkbox-enabled.md-hue-2[selected] .md-icon {
-    background-color: rgba(99, 153, 151, 0.87)
+    background-color: var(--sorint-orange)
 }
 
 .md-checkbox-enabled.md-default-theme.md-hue-2[selected].md-focused .md-container:before, .md-checkbox-enabled.md-hue-2[selected].md-focused .md-container:before {
