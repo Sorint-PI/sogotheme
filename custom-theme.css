@@ -3963,7 +3963,7 @@ md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]) .md-thumb, md-swi
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]) .md-bar, md-switch.md-hue-2.md-checked:not([disabled]) .md-bar {
-    background-color: rgba(136, 199, 129, 0.5)
+    background-color: var(--sorint-orange)
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]).md-focused .md-thumb:before, md-switch.md-hue-2.md-checked:not([disabled]).md-focused .md-thumb:before {
