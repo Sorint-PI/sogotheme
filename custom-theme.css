@@ -6,7 +6,7 @@
     --background: #8c3f0d;
 }
 
-.md-default-theme.md-bg{
+.md-default-theme.md-hue-2.md-bg{
     background-color: var(--sorint-orange) !important;
 }
 
