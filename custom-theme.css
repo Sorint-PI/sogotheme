@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-@import "./sorint-css_fonts.css";
 
 :root{
     --sorint-orange: #ef6c00;
     --side: #c45b1a;
-    --backgroung: #8c3f0d;
+    --background: #8c3f0d;
 }
 
 md-toolbar{
@@ -2006,8 +2005,8 @@ md-tabs.md-default-theme.md-hue-2.md-primary>md-tabs-wrapper>md-tabs-canvas>md-p
 }
 
 md-tabs.md-default-theme.md-hue-2.md-primary>md-tabs-wrapper>md-tabs-canvas>md-pagination-wrapper>md-ink-bar, md-tabs.md-hue-2.md-primary>md-tabs-wrapper>md-tabs-canvas>md-pagination-wrapper>md-ink-bar {
-    background: rgb(136, 199, 129);
-    color: rgb(136, 199, 129)
+    background: var(--sorint-orange);
+    color: var(--sorint-orange)
 }
 
 md-tabs.md-default-theme.md-hue-2.md-primary.md-no-ink-bar-color>md-tabs-wrapper>md-tabs-canvas>md-pagination-wrapper>md-ink-bar, md-tabs.md-hue-2.md-primary.md-no-ink-bar-color>md-tabs-wrapper>md-tabs-canvas>md-pagination-wrapper>md-ink-bar {
@@ -2715,8 +2714,8 @@ md-tabs.md-default-theme.md-hue-3.md-primary>md-tabs-wrapper>md-tabs-canvas>md-p
 }
 
 md-tabs.md-default-theme.md-hue-3.md-primary>md-tabs-wrapper>md-tabs-canvas>md-pagination-wrapper>md-ink-bar, md-tabs.md-hue-3.md-primary>md-tabs-wrapper>md-tabs-canvas>md-pagination-wrapper>md-ink-bar {
-    background: rgb(0, 200, 83);
-    color: rgb(0, 200, 83)
+    background: var(--background);
+    color: var(--background)
 }
 
 md-tabs.md-default-theme.md-hue-3.md-primary.md-no-ink-bar-color>md-tabs-wrapper>md-tabs-canvas>md-pagination-wrapper>md-ink-bar, md-tabs.md-hue-3.md-primary.md-no-ink-bar-color>md-tabs-wrapper>md-tabs-canvas>md-pagination-wrapper>md-ink-bar {
@@ -2873,7 +2872,7 @@ md-autocomplete.md-default-theme.md-accent md-progress-linear .md-bar, md-autoco
 }
 
 .md-button.md-default-theme.md-fab:not([disabled]).md-focused, .md-button.md-fab:not([disabled]).md-focused, .md-button.md-default-theme.md-fab:not([disabled]):hover, .md-button.md-fab:not([disabled]):hover {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 .md-button.md-default-theme.md-accent, .md-button.md-accent {
@@ -2890,7 +2889,7 @@ md-autocomplete.md-default-theme.md-accent md-progress-linear .md-bar, md-autoco
 }
 
 .md-button.md-default-theme.md-accent.md-fab:not([disabled]).md-focused, .md-button.md-accent.md-fab:not([disabled]).md-focused, .md-button.md-default-theme.md-accent.md-fab:not([disabled]):hover, .md-button.md-accent.md-fab:not([disabled]):hover, .md-button.md-default-theme.md-accent.md-raised:not([disabled]).md-focused, .md-button.md-accent.md-raised:not([disabled]).md-focused, .md-button.md-default-theme.md-accent.md-raised:not([disabled]):hover, .md-button.md-accent.md-raised:not([disabled]):hover {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 .md-button.md-default-theme.md-accent:not([disabled]) md-icon, .md-button.md-accent:not([disabled]) md-icon {
@@ -2911,11 +2910,11 @@ md-autocomplete.md-default-theme.md-accent md-progress-linear .md-bar, md-autoco
 }
 
 ._md a.md-default-theme:not(.md-button).md-accent:hover, ._md a:not(.md-button).md-accent:hover {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-checkbox.md-default-theme .md-ripple, md-checkbox .md-ripple {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-checkbox.md-default-theme.md-checked.md-focused .md-container:before, md-checkbox.md-checked.md-focused .md-container:before {
@@ -3034,7 +3033,7 @@ md-radio-button.md-default-theme.md-checked .md-ink-ripple, md-radio-button.md-c
 }
 
 md-radio-button.md-default-theme .md-container .md-ripple, md-radio-button .md-container .md-ripple {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-radio-group.md-default-theme .md-checked .md-ink-ripple, md-radio-group .md-checked .md-ink-ripple {
@@ -3062,7 +3061,7 @@ md-select-menu.md-default-theme md-content md-option[selected].md-accent, md-sel
 }
 
 md-select-menu.md-default-theme md-content md-option[selected].md-accent.md-focused, md-select-menu md-content md-option[selected].md-accent.md-focused, md-select-menu.md-default-theme md-content md-option[selected].md-accent:focus, md-select-menu md-content md-option[selected].md-accent:focus {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-slider.md-default-theme .md-focus-ring, md-slider .md-focus-ring {
@@ -3301,7 +3300,7 @@ md-autocomplete.md-default-theme.md-hue-1.md-accent md-progress-linear .md-bar, 
 }
 
 .md-button.md-default-theme.md-hue-1.md-fab:not([disabled]).md-focused, .md-button.md-hue-1.md-fab:not([disabled]).md-focused, .md-button.md-default-theme.md-hue-1.md-fab:not([disabled]):hover, .md-button.md-hue-1.md-fab:not([disabled]):hover {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 .md-button.md-default-theme.md-hue-1.md-accent, .md-button.md-hue-1.md-accent {
@@ -3318,7 +3317,7 @@ md-autocomplete.md-default-theme.md-hue-1.md-accent md-progress-linear .md-bar, 
 }
 
 .md-button.md-default-theme.md-hue-1.md-accent.md-fab:not([disabled]).md-focused, .md-button.md-hue-1.md-accent.md-fab:not([disabled]).md-focused, .md-button.md-default-theme.md-hue-1.md-accent.md-fab:not([disabled]):hover, .md-button.md-hue-1.md-accent.md-fab:not([disabled]):hover, .md-button.md-default-theme.md-hue-1.md-accent.md-raised:not([disabled]).md-focused, .md-button.md-hue-1.md-accent.md-raised:not([disabled]).md-focused, .md-button.md-default-theme.md-hue-1.md-accent.md-raised:not([disabled]):hover, .md-button.md-hue-1.md-accent.md-raised:not([disabled]):hover {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 .md-button.md-default-theme.md-hue-1.md-accent:not([disabled]) md-icon, .md-button.md-hue-1.md-accent:not([disabled]) md-icon {
@@ -3339,11 +3338,11 @@ md-autocomplete.md-default-theme.md-hue-1.md-accent md-progress-linear .md-bar, 
 }
 
 ._md a.md-default-theme.md-hue-1:not(.md-button).md-accent:hover, ._md a.md-hue-1:not(.md-button).md-accent:hover {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-checkbox.md-default-theme.md-hue-1 .md-ripple, md-checkbox.md-hue-1 .md-ripple {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-checkbox.md-default-theme.md-hue-1.md-checked.md-focused .md-container:before, md-checkbox.md-hue-1.md-checked.md-focused .md-container:before {
@@ -3462,7 +3461,7 @@ md-radio-button.md-default-theme.md-hue-1.md-checked .md-ink-ripple, md-radio-bu
 }
 
 md-radio-button.md-default-theme.md-hue-1 .md-container .md-ripple, md-radio-button.md-hue-1 .md-container .md-ripple {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-radio-group.md-default-theme.md-hue-1 .md-checked .md-ink-ripple, md-radio-group.md-hue-1 .md-checked .md-ink-ripple {
@@ -3490,7 +3489,7 @@ md-select-menu.md-default-theme.md-hue-1 md-content md-option[selected].md-accen
 }
 
 md-select-menu.md-default-theme.md-hue-1 md-content md-option[selected].md-accent.md-focused, md-select-menu.md-hue-1 md-content md-option[selected].md-accent.md-focused, md-select-menu.md-default-theme.md-hue-1 md-content md-option[selected].md-accent:focus, md-select-menu.md-hue-1 md-content md-option[selected].md-accent:focus {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-slider.md-default-theme.md-hue-1 .md-focus-ring, md-slider.md-hue-1 .md-focus-ring {
@@ -3704,11 +3703,11 @@ md-toolbar.md-hue-1:not(.md-menu-toolbar).md-accent md-icon {
 }
 
 md-autocomplete.md-default-theme.md-hue-2.md-accent md-input-container.md-input-focused .md-input, md-autocomplete.md-hue-2.md-accent md-input-container.md-input-focused .md-input {
-    border-color: rgb(136, 199, 129)
+    border-color: var(--sorint-orange)
 }
 
 md-autocomplete.md-default-theme.md-hue-2.md-accent md-input-container.md-input-focused label, md-autocomplete.md-hue-2.md-accent md-input-container.md-input-focused label, md-autocomplete.md-default-theme.md-hue-2.md-accent md-input-container.md-input-focused md-icon, md-autocomplete.md-hue-2.md-accent md-input-container.md-input-focused md-icon {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 md-autocomplete.md-default-theme.md-hue-2.md-accent md-progress-linear .md-container, md-autocomplete.md-hue-2.md-accent md-progress-linear .md-container {
@@ -3716,11 +3715,11 @@ md-autocomplete.md-default-theme.md-hue-2.md-accent md-progress-linear .md-conta
 }
 
 md-autocomplete.md-default-theme.md-hue-2.md-accent md-progress-linear .md-bar, md-autocomplete.md-hue-2.md-accent md-progress-linear .md-bar {
-    background-color: rgb(136, 199, 129)
+    background-color: var(--sorint-orange)
 }
 
 .md-button.md-default-theme.md-hue-2.md-fab, .md-button.md-hue-2.md-fab {
-    background-color: rgb(136, 199, 129);
+    background-color: var(--sorint-orange);
     color: rgba(255, 255, 255, 0.87)
 }
 
@@ -3729,15 +3728,15 @@ md-autocomplete.md-default-theme.md-hue-2.md-accent md-progress-linear .md-bar, 
 }
 
 .md-button.md-default-theme.md-hue-2.md-fab:not([disabled]).md-focused, .md-button.md-hue-2.md-fab:not([disabled]).md-focused, .md-button.md-default-theme.md-hue-2.md-fab:not([disabled]):hover, .md-button.md-hue-2.md-fab:not([disabled]):hover {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 .md-button.md-default-theme.md-hue-2.md-accent, .md-button.md-hue-2.md-accent {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 .md-button.md-default-theme.md-hue-2.md-accent.md-fab, .md-button.md-hue-2.md-accent.md-fab, .md-button.md-default-theme.md-hue-2.md-accent.md-raised, .md-button.md-hue-2.md-accent.md-raised {
-    background-color: rgb(136, 199, 129);
+    background-color: var(--sorint-orange);
     color: rgba(255, 255, 255, 0.87)
 }
 
@@ -3746,11 +3745,11 @@ md-autocomplete.md-default-theme.md-hue-2.md-accent md-progress-linear .md-bar, 
 }
 
 .md-button.md-default-theme.md-hue-2.md-accent.md-fab:not([disabled]).md-focused, .md-button.md-hue-2.md-accent.md-fab:not([disabled]).md-focused, .md-button.md-default-theme.md-hue-2.md-accent.md-fab:not([disabled]):hover, .md-button.md-hue-2.md-accent.md-fab:not([disabled]):hover, .md-button.md-default-theme.md-hue-2.md-accent.md-raised:not([disabled]).md-focused, .md-button.md-hue-2.md-accent.md-raised:not([disabled]).md-focused, .md-button.md-default-theme.md-hue-2.md-accent.md-raised:not([disabled]):hover, .md-button.md-hue-2.md-accent.md-raised:not([disabled]):hover {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 .md-button.md-default-theme.md-hue-2.md-accent:not([disabled]) md-icon, .md-button.md-hue-2.md-accent:not([disabled]) md-icon {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 .md-button.md-default-theme.md-hue-2.md-accent[disabled], .md-button.md-hue-2.md-accent[disabled], .md-button.md-default-theme.md-hue-2.md-fab[disabled], .md-button.md-hue-2.md-fab[disabled], .md-button.md-default-theme.md-hue-2.md-raised[disabled], .md-button.md-hue-2.md-raised[disabled], .md-button.md-default-theme.md-hue-2.md-warn[disabled], .md-button.md-hue-2.md-warn[disabled], .md-button.md-default-theme.md-hue-2[disabled], .md-button.md-hue-2[disabled] {
@@ -3763,60 +3762,60 @@ md-autocomplete.md-default-theme.md-hue-2.md-accent md-progress-linear .md-bar, 
 }
 
 ._md a.md-default-theme.md-hue-2:not(.md-button).md-accent, ._md a.md-hue-2:not(.md-button).md-accent {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 ._md a.md-default-theme.md-hue-2:not(.md-button).md-accent:hover, ._md a.md-hue-2:not(.md-button).md-accent:hover {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-checkbox.md-default-theme.md-hue-2 .md-ripple, md-checkbox.md-hue-2 .md-ripple {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-checkbox.md-default-theme.md-hue-2.md-checked.md-focused .md-container:before, md-checkbox.md-hue-2.md-checked.md-focused .md-container:before {
-    background-color: rgba(136, 199, 129, 0.26)
+    background-color: var(--sorint-orange)
 }
 
 md-checkbox.md-default-theme.md-hue-2.md-checked .md-ink-ripple, md-checkbox.md-hue-2.md-checked .md-ink-ripple {
-    color: rgba(136, 199, 129, 0.87)
+    color: var(--sorint-orange)
 }
 
 md-checkbox.md-default-theme.md-hue-2.md-checked .md-icon, md-checkbox.md-hue-2.md-checked .md-icon {
-    background-color: rgba(136, 199, 129, 0.87)
+    background-color: var(--sorint-orange)
 }
 
 .md-accent .md-default-theme.md-hue-2 .md-datepicker-input-container.md-datepicker-focused, .md-accent .md-hue-2 .md-datepicker-input-container.md-datepicker-focused {
-    border-bottom-color: rgb(136, 199, 129)
+    border-bottom-color: var(--sorint-orange)
 }
 
 .md-accent .md-default-theme.md-hue-2 .md-datepicker-open .md-datepicker-calendar-icon, .md-accent .md-hue-2 .md-datepicker-open .md-datepicker-calendar-icon, .md-default-theme.md-hue-2 .md-datepicker-open.md-accent .md-datepicker-calendar-icon, .md-hue-2 .md-datepicker-open.md-accent .md-datepicker-calendar-icon {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 md-icon.md-default-theme.md-hue-2.md-accent, md-icon.md-hue-2.md-accent {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 md-input-container.md-default-theme.md-hue-2:not(.md-input-invalid).md-input-focused.md-accent .md-input, md-input-container.md-hue-2:not(.md-input-invalid).md-input-focused.md-accent .md-input {
-    border-color: rgb(136, 199, 129)
+    border-color: var(--sorint-orange)
 }
 
 md-input-container.md-default-theme.md-hue-2:not(.md-input-invalid).md-input-focused.md-accent label, md-input-container.md-hue-2:not(.md-input-invalid).md-input-focused.md-accent label, md-input-container.md-default-theme.md-hue-2:not(.md-input-invalid).md-input-focused.md-accent md-icon, md-input-container.md-hue-2:not(.md-input-invalid).md-input-focused.md-accent md-icon {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 md-list.md-default-theme.md-hue-2 md-list-item>md-icon.md-highlight.md-accent, md-list.md-hue-2 md-list-item>md-icon.md-highlight.md-accent {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 md-nav-bar.md-default-theme.md-hue-2 md-nav-ink-bar, md-nav-bar.md-hue-2 md-nav-ink-bar {
-    background: rgb(136, 199, 129);
-    color: rgb(136, 199, 129)
+    background: var(--sorint-orange);
+    color: var(--sorint-orange)
 }
 
 md-nav-bar.md-default-theme.md-hue-2.md-accent>.md-nav-bar, md-nav-bar.md-hue-2.md-accent>.md-nav-bar {
-    background-color: rgb(136, 199, 129)
+    background-color: var(--sorint-orange)
 }
 
 md-nav-bar.md-default-theme.md-hue-2.md-accent>.md-nav-bar .md-button._md-nav-button, md-nav-bar.md-hue-2.md-accent>.md-nav-bar .md-button._md-nav-button {
@@ -3837,7 +3836,7 @@ md-nav-bar.md-default-theme.md-hue-2.md-accent>.md-nav-bar md-nav-ink-bar, md-na
 }
 
 md-toolbar.md-accent>md-nav-bar.md-default-theme.md-hue-2>.md-nav-bar, md-toolbar.md-accent>md-nav-bar.md-hue-2>.md-nav-bar {
-    background-color: rgb(136, 199, 129)
+    background-color: var(--sorint-orange)
 }
 
 md-toolbar.md-accent>md-nav-bar.md-default-theme.md-hue-2>.md-nav-bar .md-button._md-nav-button, md-toolbar.md-accent>md-nav-bar.md-hue-2>.md-nav-bar .md-button._md-nav-button {
@@ -3858,7 +3857,7 @@ md-toolbar.md-accent>md-nav-bar.md-default-theme.md-hue-2>.md-nav-bar md-nav-ink
 }
 
 md-progress-circular.md-default-theme.md-hue-2.md-accent path, md-progress-circular.md-hue-2.md-accent path {
-    stroke: rgb(136, 199, 129)
+    stroke: var(--sorint-orange)
 }
 
 md-progress-linear.md-default-theme.md-hue-2.md-accent .md-container, md-progress-linear.md-hue-2.md-accent .md-container {
@@ -3866,7 +3865,7 @@ md-progress-linear.md-default-theme.md-hue-2.md-accent .md-container, md-progres
 }
 
 md-progress-linear.md-default-theme.md-hue-2.md-accent .md-bar, md-progress-linear.md-hue-2.md-accent .md-bar {
-    background-color: rgb(136, 199, 129)
+    background-color: var(--sorint-orange)
 }
 
 md-progress-linear.md-default-theme.md-hue-2[md-mode=buffer].md-accent .md-bar1, md-progress-linear.md-hue-2[md-mode=buffer].md-accent .md-bar1 {
@@ -3878,47 +3877,47 @@ md-progress-linear.md-default-theme.md-hue-2[md-mode=buffer].md-accent .md-dashe
 }
 
 md-radio-button.md-default-theme.md-hue-2 .md-on, md-radio-button.md-hue-2 .md-on {
-    background-color: rgba(136, 199, 129, 0.87)
+    background-color: var(--sorint-orange)
 }
 
 md-radio-button.md-default-theme.md-hue-2.md-checked .md-off, md-radio-button.md-hue-2.md-checked .md-off {
-    border-color: rgba(136, 199, 129, 0.87)
+    border-color: var(--sorint-orange)
 }
 
 md-radio-button.md-default-theme.md-hue-2.md-checked .md-ink-ripple, md-radio-button.md-hue-2.md-checked .md-ink-ripple {
-    color: rgba(136, 199, 129, 0.87)
+    color: var(--sorint-orange)
 }
 
 md-radio-button.md-default-theme.md-hue-2 .md-container .md-ripple, md-radio-button.md-hue-2 .md-container .md-ripple {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-radio-group.md-default-theme.md-hue-2 .md-checked .md-ink-ripple, md-radio-group.md-hue-2 .md-checked .md-ink-ripple {
-    color: rgba(136, 199, 129, 0.26)
+    color: var(--sorint-orange)
 }
 
 md-radio-group.md-default-theme.md-hue-2.md-focused:not(:empty) .md-checked .md-container:before, md-radio-group.md-hue-2.md-focused:not(:empty) .md-checked .md-container:before {
-    background-color: rgba(136, 199, 129, 0.26)
+    background-color: var(--sorint-orange)
 }
 
 md-input-container:not(.md-input-invalid).md-input-focused.md-accent .md-select-value {
-    border-color: rgb(136, 199, 129)
+    border-color: var(--sorint-orange)
 }
 
 md-input-container:not(.md-input-invalid).md-input-focused.md-accent .md-select-value span {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 md-select.md-default-theme.md-hue-2:not([disabled]):focus.md-accent .md-select-value, md-select.md-hue-2:not([disabled]):focus.md-accent .md-select-value {
-    border-bottom-color: rgb(136, 199, 129)
+    border-bottom-color: var(--sorint-orange)
 }
 
 md-select-menu.md-default-theme.md-hue-2 md-content md-option[selected].md-accent, md-select-menu.md-hue-2 md-content md-option[selected].md-accent {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 md-select-menu.md-default-theme.md-hue-2 md-content md-option[selected].md-accent.md-focused, md-select-menu.md-hue-2 md-content md-option[selected].md-accent.md-focused, md-select-menu.md-default-theme.md-hue-2 md-content md-option[selected].md-accent:focus, md-select-menu.md-hue-2 md-content md-option[selected].md-accent:focus {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-slider.md-default-theme.md-hue-2 .md-focus-ring, md-slider.md-hue-2 .md-focus-ring {
@@ -3926,24 +3925,24 @@ md-slider.md-default-theme.md-hue-2 .md-focus-ring, md-slider.md-hue-2 .md-focus
 }
 
 md-slider.md-default-theme.md-hue-2 .md-track.md-track-fill, md-slider.md-hue-2 .md-track.md-track-fill {
-    background-color: rgb(136, 199, 129)
+    background-color: var(--sorint-orange)
 }
 
 md-slider.md-default-theme.md-hue-2 .md-thumb:after, md-slider.md-hue-2 .md-thumb:after {
-    background-color: rgb(136, 199, 129);
-    border-color: rgb(136, 199, 129)
+    background-color: var(--sorint-orange);
+    border-color: var(--sorint-orange)
 }
 
 md-slider.md-default-theme.md-hue-2 .md-sign, md-slider.md-hue-2 .md-sign {
-    background-color: rgb(136, 199, 129)
+    background-color: var(--sorint-orange)
 }
 
 md-slider.md-default-theme.md-hue-2 .md-sign:after, md-slider.md-hue-2 .md-sign:after {
-    border-top-color: rgb(136, 199, 129)
+    border-top-color: var(--sorint-orange)
 }
 
 md-slider.md-default-theme.md-hue-2[md-vertical] .md-sign:after, md-slider.md-hue-2[md-vertical] .md-sign:after {
-    border-left-color: rgb(136, 199, 129);
+    border-left-color: var(--sorint-orange);
     border-top-color: transparent
 }
 
@@ -3952,15 +3951,15 @@ md-slider.md-default-theme.md-hue-2 .md-thumb-text, md-slider.md-hue-2 .md-thumb
 }
 
 .md-subheader.md-default-theme.md-hue-2.md-accent, .md-subheader.md-hue-2.md-accent {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]) .md-ink-ripple, md-switch.md-hue-2.md-checked:not([disabled]) .md-ink-ripple {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]) .md-thumb, md-switch.md-hue-2.md-checked:not([disabled]) .md-thumb {
-    background-color: rgb(136, 199, 129)
+    background-color: var(--sorint-orange)
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]) .md-bar, md-switch.md-hue-2.md-checked:not([disabled]) .md-bar {
@@ -3968,16 +3967,16 @@ md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]) .md-bar, md-switc
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]).md-focused .md-thumb:before, md-switch.md-hue-2.md-checked:not([disabled]).md-focused .md-thumb:before {
-    background-color: rgba(136, 199, 129, 0.26)
+    background-color: var(--sorint-orange)
 }
 
 md-tabs.md-default-theme.md-hue-2 md-ink-bar, md-tabs.md-hue-2 md-ink-bar {
-    background: rgb(136, 199, 129);
-    color: rgb(136, 199, 129)
+    background: var(--sorint-orange);
+    color: var(--sorint-orange)
 }
 
 md-tabs.md-default-theme.md-hue-2 .md-tab.md-active, md-tabs.md-hue-2 .md-tab.md-active, md-tabs.md-default-theme.md-hue-2 .md-tab.md-active md-icon, md-tabs.md-hue-2 .md-tab.md-active md-icon, md-tabs.md-default-theme.md-hue-2 .md-tab.md-focused, md-tabs.md-hue-2 .md-tab.md-focused, md-tabs.md-default-theme.md-hue-2 .md-tab.md-focused md-icon, md-tabs.md-hue-2 .md-tab.md-focused md-icon {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 md-tabs.md-default-theme.md-hue-2 .md-tab .md-ripple-container, md-tabs.md-hue-2 .md-tab .md-ripple-container {
@@ -4006,8 +4005,8 @@ md-tabs.md-default-theme.md-hue-2.md-accent>md-tabs-wrapper>md-tabs-canvas>md-pa
 }
 
 md-toolbar>md-tabs.md-default-theme.md-hue-2>md-tabs-wrapper>md-tabs-canvas>md-pagination-wrapper>md-ink-bar, md-toolbar>md-tabs.md-hue-2>md-tabs-wrapper>md-tabs-canvas>md-pagination-wrapper>md-ink-bar {
-    background: rgb(136, 199, 129);
-    color: rgb(136, 199, 129)
+    background: var(--sorint-orange);
+    color: var(--sorint-orange)
 }
 
 md-toolbar.md-accent>md-tabs.md-default-theme.md-hue-2>md-tabs-wrapper, md-toolbar.md-accent>md-tabs.md-hue-2>md-tabs-wrapper {
@@ -4032,11 +4031,11 @@ md-toolbar.md-accent>md-tabs.md-default-theme.md-hue-2>md-tabs-wrapper>md-tabs-c
 }
 
 md-toast.md-default-theme.md-hue-2 .md-toast-content .md-button.md-highlight, md-toast.md-hue-2 .md-toast-content .md-button.md-highlight {
-    color: rgb(136, 199, 129)
+    color: var(--sorint-orange)
 }
 
 md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar) md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-accent .md-input, md-toolbar.md-hue-2:not(.md-menu-toolbar) md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-accent .md-input {
-    border-color: rgb(136, 199, 129)
+    border-color: var(--sorint-orange)
 }
 
 md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar).md-accent, md-toolbar.md-hue-2:not(.md-menu-toolbar).md-accent {
@@ -4118,7 +4117,7 @@ md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar).md-accent md-input-co
 }
 
 md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-accent .md-input, md-toolbar.md-hue-2:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-accent .md-input {
-    border-color: rgb(136, 199, 129)
+    border-color: var(--sorint-orange)
 }
 
 md-toolbar.md-hue-1:not(.md-menu-toolbar).md-accent, md-toolbar.md-hue-1:not(.md-menu-toolbar).md-accent md-input-container[md-no-float] .md-input {
@@ -4132,11 +4131,11 @@ md-toolbar.md-hue-1:not(.md-menu-toolbar).md-accent md-icon {
 }
 
 md-autocomplete.md-default-theme.md-hue-3.md-accent md-input-container.md-input-focused .md-input, md-autocomplete.md-hue-3.md-accent md-input-container.md-input-focused .md-input {
-    border-color: rgb(0, 200, 83)
+    border-color: var(--background)
 }
 
 md-autocomplete.md-default-theme.md-hue-3.md-accent md-input-container.md-input-focused label, md-autocomplete.md-hue-3.md-accent md-input-container.md-input-focused label, md-autocomplete.md-default-theme.md-hue-3.md-accent md-input-container.md-input-focused md-icon, md-autocomplete.md-hue-3.md-accent md-input-container.md-input-focused md-icon {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-autocomplete.md-default-theme.md-hue-3.md-accent md-progress-linear .md-container, md-autocomplete.md-hue-3.md-accent md-progress-linear .md-container {
@@ -4144,11 +4143,11 @@ md-autocomplete.md-default-theme.md-hue-3.md-accent md-progress-linear .md-conta
 }
 
 md-autocomplete.md-default-theme.md-hue-3.md-accent md-progress-linear .md-bar, md-autocomplete.md-hue-3.md-accent md-progress-linear .md-bar {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 .md-button.md-default-theme.md-hue-3.md-fab, .md-button.md-hue-3.md-fab {
-    background-color: rgb(0, 200, 83);
+    background-color: var(--background);
     color: rgba(0, 0, 0, 0.87)
 }
 
@@ -4157,15 +4156,15 @@ md-autocomplete.md-default-theme.md-hue-3.md-accent md-progress-linear .md-bar, 
 }
 
 .md-button.md-default-theme.md-hue-3.md-fab:not([disabled]).md-focused, .md-button.md-hue-3.md-fab:not([disabled]).md-focused, .md-button.md-default-theme.md-hue-3.md-fab:not([disabled]):hover, .md-button.md-hue-3.md-fab:not([disabled]):hover {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 .md-button.md-default-theme.md-hue-3.md-accent, .md-button.md-hue-3.md-accent {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 .md-button.md-default-theme.md-hue-3.md-accent.md-fab, .md-button.md-hue-3.md-accent.md-fab, .md-button.md-default-theme.md-hue-3.md-accent.md-raised, .md-button.md-hue-3.md-accent.md-raised {
-    background-color: rgb(0, 200, 83);
+    background-color: var(--background);
     color: rgba(0, 0, 0, 0.87)
 }
 
@@ -4174,11 +4173,11 @@ md-autocomplete.md-default-theme.md-hue-3.md-accent md-progress-linear .md-bar, 
 }
 
 .md-button.md-default-theme.md-hue-3.md-accent.md-fab:not([disabled]).md-focused, .md-button.md-hue-3.md-accent.md-fab:not([disabled]).md-focused, .md-button.md-default-theme.md-hue-3.md-accent.md-fab:not([disabled]):hover, .md-button.md-hue-3.md-accent.md-fab:not([disabled]):hover, .md-button.md-default-theme.md-hue-3.md-accent.md-raised:not([disabled]).md-focused, .md-button.md-hue-3.md-accent.md-raised:not([disabled]).md-focused, .md-button.md-default-theme.md-hue-3.md-accent.md-raised:not([disabled]):hover, .md-button.md-hue-3.md-accent.md-raised:not([disabled]):hover {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 .md-button.md-default-theme.md-hue-3.md-accent:not([disabled]) md-icon, .md-button.md-hue-3.md-accent:not([disabled]) md-icon {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 .md-button.md-default-theme.md-hue-3.md-accent[disabled], .md-button.md-hue-3.md-accent[disabled], .md-button.md-default-theme.md-hue-3.md-fab[disabled], .md-button.md-hue-3.md-fab[disabled], .md-button.md-default-theme.md-hue-3.md-raised[disabled], .md-button.md-hue-3.md-raised[disabled], .md-button.md-default-theme.md-hue-3.md-warn[disabled], .md-button.md-hue-3.md-warn[disabled], .md-button.md-default-theme.md-hue-3[disabled], .md-button.md-hue-3[disabled] {
@@ -4191,15 +4190,15 @@ md-autocomplete.md-default-theme.md-hue-3.md-accent md-progress-linear .md-bar, 
 }
 
 ._md a.md-default-theme.md-hue-3:not(.md-button).md-accent, ._md a.md-hue-3:not(.md-button).md-accent {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 ._md a.md-default-theme.md-hue-3:not(.md-button).md-accent:hover, ._md a.md-hue-3:not(.md-button).md-accent:hover {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-checkbox.md-default-theme.md-hue-3 .md-ripple, md-checkbox.md-hue-3 .md-ripple {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-checkbox.md-default-theme.md-hue-3.md-checked.md-focused .md-container:before, md-checkbox.md-hue-3.md-checked.md-focused .md-container:before {
@@ -4215,36 +4214,36 @@ md-checkbox.md-default-theme.md-hue-3.md-checked .md-icon, md-checkbox.md-hue-3.
 }
 
 .md-accent .md-default-theme.md-hue-3 .md-datepicker-input-container.md-datepicker-focused, .md-accent .md-hue-3 .md-datepicker-input-container.md-datepicker-focused {
-    border-bottom-color: rgb(0, 200, 83)
+    border-bottom-color: var(--background)
 }
 
 .md-accent .md-default-theme.md-hue-3 .md-datepicker-open .md-datepicker-calendar-icon, .md-accent .md-hue-3 .md-datepicker-open .md-datepicker-calendar-icon, .md-default-theme.md-hue-3 .md-datepicker-open.md-accent .md-datepicker-calendar-icon, .md-hue-3 .md-datepicker-open.md-accent .md-datepicker-calendar-icon {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-icon.md-default-theme.md-hue-3.md-accent, md-icon.md-hue-3.md-accent {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-input-container.md-default-theme.md-hue-3:not(.md-input-invalid).md-input-focused.md-accent .md-input, md-input-container.md-hue-3:not(.md-input-invalid).md-input-focused.md-accent .md-input {
-    border-color: rgb(0, 200, 83)
+    border-color: var(--background)
 }
 
 md-input-container.md-default-theme.md-hue-3:not(.md-input-invalid).md-input-focused.md-accent label, md-input-container.md-hue-3:not(.md-input-invalid).md-input-focused.md-accent label, md-input-container.md-default-theme.md-hue-3:not(.md-input-invalid).md-input-focused.md-accent md-icon, md-input-container.md-hue-3:not(.md-input-invalid).md-input-focused.md-accent md-icon {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-list.md-default-theme.md-hue-3 md-list-item>md-icon.md-highlight.md-accent, md-list.md-hue-3 md-list-item>md-icon.md-highlight.md-accent {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-nav-bar.md-default-theme.md-hue-3 md-nav-ink-bar, md-nav-bar.md-hue-3 md-nav-ink-bar {
-    background: rgb(0, 200, 83);
-    color: rgb(0, 200, 83)
+    background: var(--background);
+    color: var(--background)
 }
 
 md-nav-bar.md-default-theme.md-hue-3.md-accent>.md-nav-bar, md-nav-bar.md-hue-3.md-accent>.md-nav-bar {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 md-nav-bar.md-default-theme.md-hue-3.md-accent>.md-nav-bar .md-button._md-nav-button, md-nav-bar.md-hue-3.md-accent>.md-nav-bar .md-button._md-nav-button {
@@ -4265,7 +4264,7 @@ md-nav-bar.md-default-theme.md-hue-3.md-accent>.md-nav-bar md-nav-ink-bar, md-na
 }
 
 md-toolbar.md-accent>md-nav-bar.md-default-theme.md-hue-3>.md-nav-bar, md-toolbar.md-accent>md-nav-bar.md-hue-3>.md-nav-bar {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 md-toolbar.md-accent>md-nav-bar.md-default-theme.md-hue-3>.md-nav-bar .md-button._md-nav-button, md-toolbar.md-accent>md-nav-bar.md-hue-3>.md-nav-bar .md-button._md-nav-button {
@@ -4286,7 +4285,7 @@ md-toolbar.md-accent>md-nav-bar.md-default-theme.md-hue-3>.md-nav-bar md-nav-ink
 }
 
 md-progress-circular.md-default-theme.md-hue-3.md-accent path, md-progress-circular.md-hue-3.md-accent path {
-    stroke: rgb(0, 200, 83)
+    stroke: var(--background)
 }
 
 md-progress-linear.md-default-theme.md-hue-3.md-accent .md-container, md-progress-linear.md-hue-3.md-accent .md-container {
@@ -4294,7 +4293,7 @@ md-progress-linear.md-default-theme.md-hue-3.md-accent .md-container, md-progres
 }
 
 md-progress-linear.md-default-theme.md-hue-3.md-accent .md-bar, md-progress-linear.md-hue-3.md-accent .md-bar {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 md-progress-linear.md-default-theme.md-hue-3[md-mode=buffer].md-accent .md-bar1, md-progress-linear.md-hue-3[md-mode=buffer].md-accent .md-bar1 {
@@ -4318,7 +4317,7 @@ md-radio-button.md-default-theme.md-hue-3.md-checked .md-ink-ripple, md-radio-bu
 }
 
 md-radio-button.md-default-theme.md-hue-3 .md-container .md-ripple, md-radio-button.md-hue-3 .md-container .md-ripple {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-radio-group.md-default-theme.md-hue-3 .md-checked .md-ink-ripple, md-radio-group.md-hue-3 .md-checked .md-ink-ripple {
@@ -4330,23 +4329,23 @@ md-radio-group.md-default-theme.md-hue-3.md-focused:not(:empty) .md-checked .md-
 }
 
 md-input-container:not(.md-input-invalid).md-input-focused.md-accent .md-select-value {
-    border-color: rgb(0, 200, 83)
+    border-color: var(--background)
 }
 
 md-input-container:not(.md-input-invalid).md-input-focused.md-accent .md-select-value span {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-select.md-default-theme.md-hue-3:not([disabled]):focus.md-accent .md-select-value, md-select.md-hue-3:not([disabled]):focus.md-accent .md-select-value {
-    border-bottom-color: rgb(0, 200, 83)
+    border-bottom-color: var(--background)
 }
 
 md-select-menu.md-default-theme.md-hue-3 md-content md-option[selected].md-accent, md-select-menu.md-hue-3 md-content md-option[selected].md-accent {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-select-menu.md-default-theme.md-hue-3 md-content md-option[selected].md-accent.md-focused, md-select-menu.md-hue-3 md-content md-option[selected].md-accent.md-focused, md-select-menu.md-default-theme.md-hue-3 md-content md-option[selected].md-accent:focus, md-select-menu.md-hue-3 md-content md-option[selected].md-accent:focus {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-slider.md-default-theme.md-hue-3 .md-focus-ring, md-slider.md-hue-3 .md-focus-ring {
@@ -4354,24 +4353,24 @@ md-slider.md-default-theme.md-hue-3 .md-focus-ring, md-slider.md-hue-3 .md-focus
 }
 
 md-slider.md-default-theme.md-hue-3 .md-track.md-track-fill, md-slider.md-hue-3 .md-track.md-track-fill {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 md-slider.md-default-theme.md-hue-3 .md-thumb:after, md-slider.md-hue-3 .md-thumb:after {
-    background-color: rgb(0, 200, 83);
-    border-color: rgb(0, 200, 83)
+    background-color: var(--background);
+    border-color: var(--background)
 }
 
 md-slider.md-default-theme.md-hue-3 .md-sign, md-slider.md-hue-3 .md-sign {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 md-slider.md-default-theme.md-hue-3 .md-sign:after, md-slider.md-hue-3 .md-sign:after {
-    border-top-color: rgb(0, 200, 83)
+    border-top-color: var(--background)
 }
 
 md-slider.md-default-theme.md-hue-3[md-vertical] .md-sign:after, md-slider.md-hue-3[md-vertical] .md-sign:after {
-    border-left-color: rgb(0, 200, 83);
+    border-left-color: var(--background);
     border-top-color: transparent
 }
 
@@ -4380,15 +4379,15 @@ md-slider.md-default-theme.md-hue-3 .md-thumb-text, md-slider.md-hue-3 .md-thumb
 }
 
 .md-subheader.md-default-theme.md-hue-3.md-accent, .md-subheader.md-hue-3.md-accent {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-switch.md-default-theme.md-hue-3.md-checked:not([disabled]) .md-ink-ripple, md-switch.md-hue-3.md-checked:not([disabled]) .md-ink-ripple {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-switch.md-default-theme.md-hue-3.md-checked:not([disabled]) .md-thumb, md-switch.md-hue-3.md-checked:not([disabled]) .md-thumb {
-    background-color: rgb(0, 200, 83)
+    background-color: var(--background)
 }
 
 md-switch.md-default-theme.md-hue-3.md-checked:not([disabled]) .md-bar, md-switch.md-hue-3.md-checked:not([disabled]) .md-bar {
@@ -4400,12 +4399,12 @@ md-switch.md-default-theme.md-hue-3.md-checked:not([disabled]).md-focused .md-th
 }
 
 md-tabs.md-default-theme.md-hue-3 md-ink-bar, md-tabs.md-hue-3 md-ink-bar {
-    background: rgb(0, 200, 83);
-    color: rgb(0, 200, 83)
+    background: var(--background);
+    color: var(--background)
 }
 
 md-tabs.md-default-theme.md-hue-3 .md-tab.md-active, md-tabs.md-hue-3 .md-tab.md-active, md-tabs.md-default-theme.md-hue-3 .md-tab.md-active md-icon, md-tabs.md-hue-3 .md-tab.md-active md-icon, md-tabs.md-default-theme.md-hue-3 .md-tab.md-focused, md-tabs.md-hue-3 .md-tab.md-focused, md-tabs.md-default-theme.md-hue-3 .md-tab.md-focused md-icon, md-tabs.md-hue-3 .md-tab.md-focused md-icon {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-tabs.md-default-theme.md-hue-3 .md-tab .md-ripple-container, md-tabs.md-hue-3 .md-tab .md-ripple-container {
@@ -4434,8 +4433,8 @@ md-tabs.md-default-theme.md-hue-3.md-accent>md-tabs-wrapper>md-tabs-canvas>md-pa
 }
 
 md-toolbar>md-tabs.md-default-theme.md-hue-3>md-tabs-wrapper>md-tabs-canvas>md-pagination-wrapper>md-ink-bar, md-toolbar>md-tabs.md-hue-3>md-tabs-wrapper>md-tabs-canvas>md-pagination-wrapper>md-ink-bar {
-    background: rgb(0, 200, 83);
-    color: rgb(0, 200, 83)
+    background: var(--background);
+    color: var(--background)
 }
 
 md-toolbar.md-accent>md-tabs.md-default-theme.md-hue-3>md-tabs-wrapper, md-toolbar.md-accent>md-tabs.md-hue-3>md-tabs-wrapper {
@@ -4460,11 +4459,11 @@ md-toolbar.md-accent>md-tabs.md-default-theme.md-hue-3>md-tabs-wrapper>md-tabs-c
 }
 
 md-toast.md-default-theme.md-hue-3 .md-toast-content .md-button.md-highlight, md-toast.md-hue-3 .md-toast-content .md-button.md-highlight {
-    color: rgb(0, 200, 83)
+    color: var(--background)
 }
 
 md-toolbar.md-default-theme.md-hue-3:not(.md-menu-toolbar) md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-accent .md-input, md-toolbar.md-hue-3:not(.md-menu-toolbar) md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-accent .md-input {
-    border-color: rgb(0, 200, 83)
+    border-color: var(--background)
 }
 
 md-toolbar.md-default-theme.md-hue-3:not(.md-menu-toolbar).md-accent, md-toolbar.md-hue-3:not(.md-menu-toolbar).md-accent {
@@ -4546,7 +4545,7 @@ md-toolbar.md-default-theme.md-hue-3:not(.md-menu-toolbar).md-accent md-input-co
 }
 
 md-toolbar.md-default-theme.md-hue-3:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-accent .md-input, md-toolbar.md-hue-3:not(.md-menu-toolbar).md-warn md-input-container[md-no-float]:not(.md-input-invalid).md-input-focused.md-accent .md-input {
-    border-color: rgb(0, 200, 83)
+    border-color: var(--background)
 }
 
 md-toolbar.md-hue-1:not(.md-menu-toolbar).md-accent, md-toolbar.md-hue-1:not(.md-menu-toolbar).md-accent md-input-container[md-no-float] .md-input {
