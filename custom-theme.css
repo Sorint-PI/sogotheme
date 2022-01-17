@@ -6,6 +6,10 @@
     --background: #8c3f0d;
 }
 
+md-list-item{
+    background-color: var(--sorint-orange) !important;
+}
+
 md-toolbar{
     font-family: 'Quicksand', sans-serif;
 }
@@ -23,7 +27,8 @@ md-bottom-sheet.md-default-theme.md-list md-list-item, md-bottom-sheet.md-list m
 }
 
 .md-button.md-default-theme.md-primary, .md-button.md-primary {
-    color: var(--side)
+    color: var(--side),
+
 }
 
 .md-button.md-default-theme.md-primary.md-fab, .md-button.md-primary.md-fab, .md-button.md-default-theme.md-primary.md-raised, .md-button.md-primary.md-raised {
