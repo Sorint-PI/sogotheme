@@ -48,7 +48,7 @@ md-select-menu.md-default-theme md-content md-option[selected].md-focused, md-se
 }
 
 md-default-theme.md-primary.md-fg{
-    color: black;
+    color: black !important;
 }
 
 md-toolbar{
