@@ -15,23 +15,31 @@
 }
 
 .md-default-theme.md-hue-1.md-fg {
-    color: var(--background);
+    color: var(--background) !important;
 }
 
 .md-default-theme.md-hue-2.md-fg {
-    color: var(--background);
+    color: var(--background)  !important;
 }
 
 .md-default-theme.md-primary.md-hue-2.md-fg {
-    color: var(--background);
+    color: var(--background) !important;
 }
 
 .md-default-theme.md-primary.md-hue-1.md-fg {
-    color: var(--background);
+    color: var(--background) !important;
 }
 
 [ui-view=calendars] .hours {
     color: var(--background);
+}
+
+.md-icon{
+    color: var(--sorint-orange);
+}
+
+.md-toolbar-tools .sg-toolbar-tools--dense .layout-align-center-center{
+    background-color: var(--sorint-orange);
 }
 
 md-toolbar{
@@ -730,10 +738,6 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar) md-input-container[md-no-float
 
 .sg-timepicker-open .sg-timepicker-icon {
     color: var(--side);
-}
-
-[ui-view=calendars] .hours {
-    color: rgb(125, 179, 176);
 }
 
 .attendees .event {
@@ -1441,10 +1445,6 @@ md-toolbar.md-default-theme.md-hue-1:not(.md-menu-toolbar) md-input-container[md
     color: var(--side);
 }
 
-[ui-view=calendars] .hours {
-    color: rgb(125, 179, 176);
-}
-
 .attendees .event {
     background-color: rgb(191, 224, 221);
 }
@@ -2148,10 +2148,6 @@ md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar) md-input-container[md
 
 .sg-timepicker-open .sg-timepicker-icon {
     color: var(--side);
-}
-
-[ui-view=calendars] .hours {
-    color: rgb(125, 179, 176);
 }
 
 .attendees .event {
