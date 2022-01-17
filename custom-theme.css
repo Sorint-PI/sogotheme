@@ -543,7 +543,7 @@ md-switch.md-default-theme.md-checked:not([disabled]).md-primary .md-thumb, md-s
 }
 
 md-switch.md-default-theme.md-checked:not([disabled]).md-primary .md-bar, md-switch.md-checked:not([disabled]).md-primary .md-bar {
-    background-color: var(--background))
+    background-color: var(--background)
 }
 
 md-switch.md-default-theme.md-checked:not([disabled]).md-primary.md-focused .md-thumb:before, md-switch.md-checked:not([disabled]).md-primary.md-focused .md-thumb:before {
@@ -1252,7 +1252,7 @@ md-switch.md-default-theme.md-hue-1.md-checked:not([disabled]).md-primary .md-th
 }
 
 md-switch.md-default-theme.md-hue-1.md-checked:not([disabled]).md-primary .md-bar, md-switch.md-hue-1.md-checked:not([disabled]).md-primary .md-bar {
-    background-color: var(--background), 0.5)
+    background-color: var(--background)
 }
 
 md-switch.md-default-theme.md-hue-1.md-checked:not([disabled]).md-primary.md-focused .md-thumb:before, md-switch.md-hue-1.md-checked:not([disabled]).md-primary.md-focused .md-thumb:before {
@@ -1272,7 +1272,7 @@ md-tabs.md-default-theme.md-hue-1 .md-tab[disabled], md-tabs.md-hue-1 .md-tab[di
 }
 
 md-tabs.md-default-theme.md-hue-1 .md-tab.md-focused, md-tabs.md-hue-1 .md-tab.md-focused {
-    background: var(--background), 0.1)
+    background: var(--background)
 }
 
 md-tabs.md-default-theme.md-hue-1.md-primary>md-tabs-wrapper, md-tabs.md-hue-1.md-primary>md-tabs-wrapper {
@@ -2918,15 +2918,15 @@ md-checkbox.md-default-theme .md-ripple, md-checkbox .md-ripple {
 }
 
 md-checkbox.md-default-theme.md-checked.md-focused .md-container:before, md-checkbox.md-checked.md-focused .md-container:before {
-    background-color: rgba(86, 176, 76, 0.26)
+    background-color: var(--sorint-orange)
 }
 
 md-checkbox.md-default-theme.md-checked .md-ink-ripple, md-checkbox.md-checked .md-ink-ripple {
-    color: rgba(86, 176, 76, 0.87)
+    color: var(--sorint-orange)
 }
 
 md-checkbox.md-default-theme.md-checked .md-icon, md-checkbox.md-checked .md-icon {
-    background-color: rgba(86, 176, 76, 0.87)
+    background-color: var(--sorint-orange)
 }
 
 .md-accent .md-default-theme .md-datepicker-input-container.md-datepicker-focused, .md-accent .md-datepicker-input-container.md-datepicker-focused {
@@ -3021,15 +3021,15 @@ md-progress-linear.md-default-theme[md-mode=buffer].md-accent .md-dashed:before,
 }
 
 md-radio-button.md-default-theme .md-on, md-radio-button .md-on {
-    background-color: rgba(86, 176, 76, 0.87)
+    background-color: var(--sorint-orange)
 }
 
 md-radio-button.md-default-theme.md-checked .md-off, md-radio-button.md-checked .md-off {
-    border-color: rgba(86, 176, 76, 0.87)
+    border-color: var(--sorint-orange)
 }
 
 md-radio-button.md-default-theme.md-checked .md-ink-ripple, md-radio-button.md-checked .md-ink-ripple {
-    color: rgba(86, 176, 76, 0.87)
+    color: var(--sorint-orange)
 }
 
 md-radio-button.md-default-theme .md-container .md-ripple, md-radio-button .md-container .md-ripple {
@@ -3037,11 +3037,11 @@ md-radio-button.md-default-theme .md-container .md-ripple, md-radio-button .md-c
 }
 
 md-radio-group.md-default-theme .md-checked .md-ink-ripple, md-radio-group .md-checked .md-ink-ripple {
-    color: rgba(86, 176, 76, 0.26)
+    color: var(--sorint-orange)
 }
 
 md-radio-group.md-default-theme.md-focused:not(:empty) .md-checked .md-container:before, md-radio-group.md-focused:not(:empty) .md-checked .md-container:before {
-    background-color: rgba(86, 176, 76, 0.26)
+    background-color: var(--sorint-orange)
 }
 
 md-input-container:not(.md-input-invalid).md-input-focused.md-accent .md-select-value {
@@ -3107,11 +3107,11 @@ md-switch.md-default-theme.md-checked:not([disabled]) .md-thumb, md-switch.md-ch
 }
 
 md-switch.md-default-theme.md-checked:not([disabled]) .md-bar, md-switch.md-checked:not([disabled]) .md-bar {
-    background-color: rgba(86, 176, 76, 0.5)
+    background-color: var(--sorint-orange)
 }
 
 md-switch.md-default-theme.md-checked:not([disabled]).md-focused .md-thumb:before, md-switch.md-checked:not([disabled]).md-focused .md-thumb:before {
-    background-color: rgba(86, 176, 76, 0.26)
+    background-color: var(--sorint-orange)
 }
 
 md-tabs.md-default-theme md-ink-bar, md-tabs md-ink-bar {
