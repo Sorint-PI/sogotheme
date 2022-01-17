@@ -35,11 +35,11 @@
 }
 
 .md-icon{
-    color: var(--sorint-orange);
+    color: var(--sorint-orange) !important;
 }
 
 .md-toolbar-tools .sg-toolbar-tools--dense .layout-align-center-center{
-    background-color: var(--sorint-orange);
+    background-color: var(--sorint-orange) !important;
 }
 
 md-toolbar{
