@@ -6,6 +6,10 @@
     --background: #8c3f0d;
 }
 
+.md-default-theme.md-accent.md-hue-2.md-bg{
+    background-color: var(--sorint-orange) !important;
+}
+
 md-toolbar{
     font-family: 'Quicksand', sans-serif;
 }
