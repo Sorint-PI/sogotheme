@@ -7,7 +7,31 @@
 }
 
 .md-default-theme.md-hue-2.md-bg{
+    background-color: var(--side) !important;
+}
+
+.md-default-theme.md-accent.md-bg{
     background-color: var(--sorint-orange) !important;
+}
+
+.md-default-theme.md-hue-1.md-fg {
+    color: var(--background);
+}
+
+.md-default-theme.md-hue-2.md-fg {
+    color: var(--background);
+}
+
+.md-default-theme.md-primary.md-hue-2.md-fg {
+    color: var(--background);
+}
+
+.md-default-theme.md-primary.md-hue-1.md-fg {
+    color: var(--background);
+}
+
+[ui-view=calendars] .hours {
+    color: var(--background);
 }
 
 md-toolbar{
@@ -164,15 +188,15 @@ md-chips.md-default-theme .md-chip-remove-container button.md-chip-remove md-ico
 }
 
 .md-default-theme .md-calendar-date.md-calendar-date-today .md-calendar-date-selection-indicator, .md-calendar-date.md-calendar-date-today .md-calendar-date-selection-indicator {
-    border: 1px solid rgb(161, 204, 200)
+    border: 1px solid var(--sorint-orange)
 }
 
 .md-default-theme .md-calendar-date.md-calendar-date-today.md-calendar-date-disabled, .md-calendar-date.md-calendar-date-today.md-calendar-date-disabled {
-    color: rgba(161, 204, 200, 0.6)
+    color: var(--sorint-orange)
 }
 
 .md-default-theme .md-calendar-date.md-calendar-selected-date .md-calendar-date-selection-indicator, .md-calendar-date.md-calendar-selected-date .md-calendar-date-selection-indicator, .md-default-theme .md-calendar-date.md-focus.md-calendar-selected-date .md-calendar-date-selection-indicator, .md-calendar-date.md-focus.md-calendar-selected-date .md-calendar-date-selection-indicator {
-    background: rgb(161, 204, 200);
+    background: var(--sorint-orange);
     border-color: transparent;
     color: rgba(255, 255, 255, 0.87)
 }
@@ -2828,15 +2852,11 @@ md-toolbar.md-default-theme.md-hue-3:not(.md-menu-toolbar) md-input-container[md
 }
 
 .sg-time-selection-indicator.sg-time-selected, .sg-time-selection-indicator:hover.sg-time-selected, .sg-time-selection-indicator.md-focus.sg-time-selected {
-    background: rgb(161, 204, 200);
+    background: var(--sorint-orange);
 }
 
 .sg-timepicker-open .sg-timepicker-icon {
     color: var(--side);
-}
-
-[ui-view=calendars] .hours {
-    color: rgb(125, 179, 176);
 }
 
 .attendees .event {
@@ -3964,7 +3984,7 @@ md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]) .md-ink-ripple, m
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]) .md-thumb, md-switch.md-hue-2.md-checked:not([disabled]) .md-thumb {
-    background-color: var(--sorint-orange)
+    background-color: var(--side)
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]) .md-bar, md-switch.md-hue-2.md-checked:not([disabled]) .md-bar {
