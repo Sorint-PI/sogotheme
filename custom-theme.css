@@ -40,11 +40,15 @@
 }
 
 [md-colors="::{color: 'accent-600'}"] {
-    color: var(--sorint-orange) !important;
+    background-color: var(--sorint-orange) !important;
 }
 
 md-select-menu.md-default-theme md-content md-option[selected].md-focused, md-select-menu md-content md-option[selected].md-focused, md-select-menu.md-default-theme md-content md-option[selected]:focus, md-select-menu md-content md-option[selected]:focus {
     color: var(--sorint-orange);
+}
+
+md-default-theme.md-primary.md-fg{
+    color: black;
 }
 
 md-toolbar{
@@ -3132,7 +3136,7 @@ md-switch.md-default-theme.md-checked:not([disabled]) .md-thumb, md-switch.md-ch
 }
 
 md-switch.md-default-theme.md-checked:not([disabled]) .md-bar, md-switch.md-checked:not([disabled]) .md-bar {
-    background-color: var(--sorint-orange)
+    background-color: var(--side)
 }
 
 md-switch.md-default-theme.md-checked:not([disabled]).md-focused .md-thumb:before, md-switch.md-checked:not([disabled]).md-focused .md-thumb:before {
@@ -3988,7 +3992,7 @@ md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]) .md-thumb, md-swi
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]) .md-bar, md-switch.md-hue-2.md-checked:not([disabled]) .md-bar {
-    background-color: var(--sorint-orange)
+    background-color: var(--side)
 }
 
 md-switch.md-default-theme.md-hue-2.md-checked:not([disabled]).md-focused .md-thumb:before, md-switch.md-hue-2.md-checked:not([disabled]).md-focused .md-thumb:before {
