@@ -6,10 +6,6 @@
     --background: #8c3f0d;
 }
 
-md-list-item{
-    background-color: var(--sorint-orange) !important;
-}
-
 md-toolbar{
     font-family: 'Quicksand', sans-serif;
 }
