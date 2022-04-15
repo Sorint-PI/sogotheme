@@ -22,7 +22,24 @@
     color: black;
 }
 /* #endregion*/
-/*#region mail selection*/
+/*#region contacts sidebar*/
+md-content.md-flex._md[md-colors="::{ backgroundColor: 'default-background-300' }"]{
+    background-color: var(--background-dark) !important;
+    color: white !important;
+}
+
+md-content.md-flex._md[md-colors="::{ backgroundColor: 'default-background-300' }"] md-icon{
+    color: white;
+}
+
+[md-colors="::{ backgroundColor: 'default-background-300' }"] .md-subheader-inner{
+    background-color: var(--background-dark);
+    color: white;
+}
+
+
+/*#endregion*/
+/*#region selection general*/
 md-toolbar.md-accent.md-hue-1._md._md-toolbar-transitions{
     background-color: var(--background-grey);
     color: white;
@@ -31,14 +48,15 @@ md-toolbar.md-accent.md-hue-1._md._md-toolbar-transitions{
 md-toolbar.md-accent.md-hue-1._md._md-toolbar-transitions md-icon{
     color:white;
 }
-
+/*#endregion*/
+/*#region mail selection*/
 #messagesList{
     background-color: var(--background-grey);
     color:white;
 }
 
 #messagesList md-icon{
-    color:ffffff7a;
+    color:#ffffff7a;
 }
 
 #messagesList .md-subheader._md{
@@ -50,7 +68,25 @@ md-toolbar.md-accent.md-hue-1._md._md-toolbar-transitions md-icon{
     color: white;
 }
 /*#endregion*/
+/*#region contact selection*/
+#contactsList{
+    background-color: var(--background-grey);
+    color:white;
+}
 
+#contactsList md-icon{
+    color:#ffffff7a;
+}
+
+#contactsList .md-subheader._md{
+    background-color: var(--background-grey);
+    color: white;
+}
+
+#contactsList .md-subheader._md md-icon{
+    color: white;
+}
+/*#endregion*/
 
 .md-default-theme.md-hue-2.md-bg{
     background-color: var(--side) !important;
