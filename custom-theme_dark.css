@@ -6,6 +6,7 @@
     --background-orange: #8c3f0d;
     --background-dark: #1c1c1c;
     --background-grey: #4a4a4a;
+    --thread-grey: #595959;
 }
 
 /*#region mail sidebar*/
@@ -2950,11 +2951,11 @@ md-toolbar.md-default-theme.md-hue-3:not(.md-menu-toolbar) md-input-container[md
 }
 
 .sg-message-thread {
-    background-color: rgb(225, 245, 243);
+    background-color: var(--thread-grey);
 }
 
 .sg-message-thread-first {
-    background-color: rgb(206, 235, 232);
+    background-color: var(--background-grey);
 }
 
 md-autocomplete.md-default-theme.md-accent md-input-container.md-input-focused .md-input, md-autocomplete.md-accent md-input-container.md-input-focused .md-input {
