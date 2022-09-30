@@ -6,18 +6,18 @@
     --background-orange: #8c3f0d;
     --background-dark: #e0e0e0;
     --background-grey: #fafafa;
-    --thread-grey: rgb(239, 108, 0, 40);
+    --thread-grey: rgb(239, 108, 0, 0.5);
     --text: black;
 }
 
 /*#region mail sidebar*/
 .sg-account-section{
     background-color: var(--background-dark);
-    color: white;
+    color: var(--text);
 }
 
 .sg-account-section md-icon{
-    color: white;
+    color: var(--text);
 }
 
 .sg-account-section .sg-selected md-icon{
@@ -27,16 +27,16 @@
 /*#region contacts sidebar*/
 md-content.md-flex._md[md-colors="::{ backgroundColor: 'default-background-300' }"]{
     background-color: var(--background-dark) !important;
-    color: white !important;
+    color: var(--text) !important;
 }
 
 md-content.md-flex._md[md-colors="::{ backgroundColor: 'default-background-300' }"] md-icon{
-    color: white;
+    color: var(--text);
 }
 
 [md-colors="::{ backgroundColor: 'default-background-300' }"] .md-subheader-inner{
     background-color: var(--background-dark);
-    color: white;
+    color: var(--text);
 }
 
 
@@ -44,7 +44,7 @@ md-content.md-flex._md[md-colors="::{ backgroundColor: 'default-background-300' 
 /*#region selection general*/
 md-toolbar.md-accent.md-hue-1._md._md-toolbar-transitions{
     background-color: var(--background-grey);
-    color: white;
+    color: var(--text);
 }
 
 md-toolbar.md-accent.md-hue-1._md._md-toolbar-transitions md-icon{
@@ -63,11 +63,11 @@ md-toolbar.md-accent.md-hue-1._md._md-toolbar-transitions md-icon{
 
 #messagesList .md-subheader._md{
     background-color: var(--background-grey);
-    color: white;
+    color: var(--text);
 }
 
 #messagesList .md-subheader._md md-icon{
-    color: white;
+    color: var(--text);
 }
 /*#endregion*/
 /*#region contact selection*/
@@ -82,11 +82,11 @@ md-toolbar.md-accent.md-hue-1._md._md-toolbar-transitions md-icon{
 
 #contactsList .md-subheader._md{
     background-color: var(--background-grey);
-    color: white;
+    color: var(--text);
 }
 
 #contactsList .md-subheader._md md-icon{
-    color: white;
+    color: var(--text);
 }
 /*#endregion*/
 
